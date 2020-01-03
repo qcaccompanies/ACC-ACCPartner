@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'accpartner.apk'</initValue>
+      <name>ApkName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>100</initValue>
+      <name>gapSize</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

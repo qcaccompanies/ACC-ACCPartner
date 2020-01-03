@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Data Debitur</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>effef173-8cf3-4bf7-9d48-add9802c3a37</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fc16580-f4e7-41c5-97ee-e347c89d090f</id>
+      <masked>false</masked>
+      <name>Picture</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d906d922-53af-4945-8902-540721c0ab59</id>
+      <masked>false</masked>
+      <name>NamaKTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44efdcd7-95e6-4c2c-9bd4-a394669b49e7</id>
+      <masked>false</masked>
+      <name>NoHP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cab4415d-481a-4ce0-822b-e500532596ec</id>
+      <masked>false</masked>
+      <name>AdaFoto</name>
+   </variable>
+</TestCaseEntity>

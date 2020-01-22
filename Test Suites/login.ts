@@ -19,7 +19,7 @@
          <combinationType>ONE</combinationType>
          <id>1a73c6b7-f56a-41f7-9f67-75bb8aa5c9f0</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_login</testDataId>

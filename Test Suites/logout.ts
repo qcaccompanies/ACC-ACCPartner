@@ -17,7 +17,7 @@
       <testCaseId>Test Cases/Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0b4d69a2-becd-461d-a794-b81ec9a634bd</id>
+         <id>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,31 +25,31 @@
          <testDataId>Data Files/data_binding_logout</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0b4d69a2-becd-461d-a794-b81ec9a634bd</testDataLinkId>
+         <testDataLinkId>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected_logout</value>
          <variableId>c7ec7381-0a2d-4df1-88f3-33d2ce862fe7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b4d69a2-becd-461d-a794-b81ec9a634bd</testDataLinkId>
+         <testDataLinkId>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>status_logout</value>
          <variableId>1e48ec67-eaee-4354-9314-ffd797d8e5ef</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b4d69a2-becd-461d-a794-b81ec9a634bd</testDataLinkId>
+         <testDataLinkId>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected_login</value>
          <variableId>8a421f37-afeb-4d4e-99a1-19b06066f3c9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b4d69a2-becd-461d-a794-b81ec9a634bd</testDataLinkId>
+         <testDataLinkId>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_username</value>
          <variableId>95b1d7e1-5558-416a-9cdd-f215541b199f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b4d69a2-becd-461d-a794-b81ec9a634bd</testDataLinkId>
+         <testDataLinkId>3c81b066-08b9-44e6-adf0-764fe8bf9c9e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_password</value>
          <variableId>f95f02d8-68f6-48f3-b5c1-0d0f5cfab662</variableId>

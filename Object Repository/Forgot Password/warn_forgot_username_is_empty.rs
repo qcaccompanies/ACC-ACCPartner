@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_forgot_username_is_empty</name>
    <tag></tag>
-   <elementGuidId>74b6efd8-22df-49ca-9369-f9243ebc3b3a</elementGuidId>
+   <elementGuidId>71917091-e590-407e-a63e-7418501d30db</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_forgot_verifikasi</name>
    <tag></tag>
-   <elementGuidId>9f8adc3b-83ef-46b0-a9c9-534147ebccda</elementGuidId>
+   <elementGuidId>3b4bd1ef-63cb-4074-9cc4-37f021202715</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

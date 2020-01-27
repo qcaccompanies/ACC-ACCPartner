@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_password_format</name>
    <tag></tag>
-   <elementGuidId>b6d65808-1601-4c04-b45b-a6950b853a0f</elementGuidId>
+   <elementGuidId>0b6b41d7-121a-4b96-92b7-9064ee92f7dd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

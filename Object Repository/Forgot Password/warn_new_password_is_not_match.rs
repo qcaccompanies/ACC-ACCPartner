@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_new_password_is_not_match</name>
    <tag></tag>
-   <elementGuidId>29ba0bd8-d16e-49a3-816c-b6d286519d90</elementGuidId>
+   <elementGuidId>7f5d6aa5-7320-4761-99bb-177ba9910e52</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

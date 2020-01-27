@@ -3,7 +3,7 @@
    <description></description>
    <name>tap_forgot_username</name>
    <tag></tag>
-   <elementGuidId>ec7c8903-fd2c-467e-a713-efe777dcf7a3</elementGuidId>
+   <elementGuidId>80b4e43b-31cc-4e3d-a751-afa00ffb5132</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

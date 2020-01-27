@@ -3,7 +3,7 @@
    <description></description>
    <name>btn_verif_otp</name>
    <tag></tag>
-   <elementGuidId>18bdb723-08df-4cb0-84a2-b5b703ea1209</elementGuidId>
+   <elementGuidId>a4a37dc1-b308-4d5b-af4e-1126f9c5eef2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

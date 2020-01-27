@@ -3,7 +3,7 @@
    <description></description>
    <name>input_forgot_username</name>
    <tag></tag>
-   <elementGuidId>914bea5e-dfdc-4286-a273-ab0a6503b0b2</elementGuidId>
+   <elementGuidId>7fbd35f2-b234-418a-98b2-8965ce34cefd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

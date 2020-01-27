@@ -3,7 +3,13 @@
    <description></description>
    <name>tap_otp_phone_number</name>
    <tag></tag>
-   <elementGuidId>7493fa66-387f-463c-b055-5e175ca2f356</elementGuidId>
+   <elementGuidId>ac853211-4f74-4ead-865d-77690effde90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4][count(. | //*[@class = 'android.view.View']) = count(//*[@class = 'android.view.View'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -119,7 +125,7 @@
       <value>98</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

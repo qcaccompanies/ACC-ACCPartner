@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_forgot_username_not_match</name>
    <tag></tag>
-   <elementGuidId>3a0d3454-f711-49a1-bd7e-76982e04bb9a</elementGuidId>
+   <elementGuidId>6a2e9578-2759-49ca-ac70-7ab3a4509b84</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

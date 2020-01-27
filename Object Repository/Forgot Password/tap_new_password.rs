@@ -3,7 +3,7 @@
    <description></description>
    <name>tap_new_password</name>
    <tag></tag>
-   <elementGuidId>32850d17-3ab1-4508-9bae-f8a8b11c96fc</elementGuidId>
+   <elementGuidId>186e70f0-2400-496c-87b8-ee1f3968062c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

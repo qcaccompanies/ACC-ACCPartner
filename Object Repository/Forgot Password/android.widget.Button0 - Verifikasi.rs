@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.Button0 - Verifikasi</name>
    <tag></tag>
-   <elementGuidId>e8f1f696-5dc6-46c2-94fa-30d50ac66ec7</elementGuidId>
+   <elementGuidId>cc2da01f-e92a-45f3-be41-fbcbb8d1f0c9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>android.view.View0</name>
    <tag></tag>
-   <elementGuidId>89eff615-a96a-46b7-beb3-383d95e006f2</elementGuidId>
+   <elementGuidId>ea6722ad-dbd1-45c8-b293-f33e10c5eb0b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

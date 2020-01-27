@@ -3,7 +3,7 @@
    <description></description>
    <name>warn_is_empty_new_password</name>
    <tag></tag>
-   <elementGuidId>8311a1a6-ffcb-4bf1-af98-1b178b687be9</elementGuidId>
+   <elementGuidId>b84f04f1-55b4-4369-b29f-88f5bb919a2a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

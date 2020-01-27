@@ -3,7 +3,7 @@
    <description></description>
    <name>button_forgot_confirm</name>
    <tag></tag>
-   <elementGuidId>45425745-b95a-4f15-9a0b-b77c76ccc81e</elementGuidId>
+   <elementGuidId>01b664ff-13c3-4adf-b372-8aebea554085</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>tap_forgot_password</name>
    <tag></tag>
-   <elementGuidId>183634c5-69de-4e12-885d-05273a3734b2</elementGuidId>
+   <elementGuidId>bc5cda45-fef1-4a84-b7e0-b31fd144c4e9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

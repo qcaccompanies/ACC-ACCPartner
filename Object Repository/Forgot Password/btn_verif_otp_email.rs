@@ -3,7 +3,7 @@
    <description></description>
    <name>btn_verif_otp_email</name>
    <tag></tag>
-   <elementGuidId>fac351b0-e035-45c0-997d-6dcc6195f954</elementGuidId>
+   <elementGuidId>f38c2871-24b7-49a7-956b-7018984813f8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

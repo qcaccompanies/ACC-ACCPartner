@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Task ACC Partner\\accpartner.apk', true)
+Mobile.startApplication('G:\\accpartner.apk', true)
 
 Mobile.tap(findTestObject('Login/tap_username'), 0)
 

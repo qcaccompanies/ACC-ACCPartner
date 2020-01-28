@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Photo Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93f2a181-84e8-4ad0-b611-2c01c6d2e598</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>008d5bb5-8cf7-4b56-90ae-d7cf87b07fb7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb6e35bf-ad4f-40c0-8b55-2cf652dd1997</id>
+      <masked>false</masked>
+      <name>katasandi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53c7faa0-0090-4923-8cba-f16cfe6f3105</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb8deb6e-bb1b-4ee5-b4f8-8b7a30b674e4</id>
+      <masked>false</masked>
+      <name>namafoto</name>
+   </variable>
+</TestCaseEntity>

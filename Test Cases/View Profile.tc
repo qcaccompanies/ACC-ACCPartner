@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc6c0f84-e0ae-411d-b22f-27f21ac1ebee</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bb5d0be-da9c-44c9-894f-9482e512efe1</id>
+      <masked>false</masked>
+      <name>expectedlogin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6ee3918-8272-4432-9b5b-1b2f31acef0a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e326d10c-534e-4138-99bf-e23f15fefb30</id>
+      <masked>false</masked>
+      <name>katasandi</name>
+   </variable>
+</TestCaseEntity>

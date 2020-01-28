@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>NewFotoProfile</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>49c0bc22-3408-46bd-84ae-4b6c249c3386</testSuiteGuid>
+   <testCaseLink>
+      <guid>9018be82-cada-4a04-8679-4cd0596e6f74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Photo Profile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b94c0952-36fb-4723-9397-52cc477a424f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New_Foto</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>008d5bb5-8cf7-4b56-90ae-d7cf87b07fb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>katasandi</value>
+         <variableId>fb6e35bf-ad4f-40c0-8b55-2cf652dd1997</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>53c7faa0-0090-4923-8cba-f16cfe6f3105</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namafoto</value>
+         <variableId>cb8deb6e-bb1b-4ee5-b4f8-8b7a30b674e4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

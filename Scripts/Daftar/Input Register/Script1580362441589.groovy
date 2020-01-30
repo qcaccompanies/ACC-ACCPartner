@@ -104,5 +104,3 @@ switch (expected_register_status) {
         break
 }
 
-Mobile.closeApplication()
-

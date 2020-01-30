@@ -14,7 +14,7 @@
       <guid>58dbb950-dd1f-4499-bac5-7289a87108eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Change Password</testCaseId>
+      <testCaseId>Test Cases/Profil/Change Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bfc9bbcd-fb23-4753-9397-6d8935ac3293</id>

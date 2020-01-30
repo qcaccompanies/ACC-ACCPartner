@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [('var_username') : username, ('var_password') : katasandi, ('expected_login') : expectedlogin
+WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : username, ('var_password') : katasandi, ('expected_login') : expectedlogin
         , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)

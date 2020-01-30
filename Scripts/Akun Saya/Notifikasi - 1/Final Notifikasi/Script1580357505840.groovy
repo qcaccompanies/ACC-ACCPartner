@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (Mobile.verifyElementVisible(findTestObject('Notifikasi/check_page_log_in'), 0)) {
-    WebUI.callTestCase(findTestCase('Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : expected_login
+    WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : expected_login
             , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.OPTIONAL)
 
-    WebUI.callTestCase(findTestCase('Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
+    WebUI.callTestCase(findTestCase('Akun Saya/Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
             , ('var_verifikasi_akun') : var_verifikasi_akun, ('var_perubahan_data') : var_perubahan_data], FailureHandling.STOP_ON_FAILURE)
 } else if (Mobile.verifyElementVisible(findTestObject('Notifikasi/check_page_is_logged_in'), 0)) {
-    WebUI.callTestCase(findTestCase('Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
+    WebUI.callTestCase(findTestCase('Akun Saya/Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
             , ('var_verifikasi_akun') : var_verifikasi_akun, ('var_perubahan_data') : var_perubahan_data], FailureHandling.STOP_ON_FAILURE)
 
     not_run: Mobile.tap(findTestObject('Notifikasi/tap_akun'), 0)

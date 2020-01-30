@@ -14,12 +14,12 @@
       <guid>f94a9ead-5e20-4ffa-b1bc-feb2f35f9eb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Notifikasi - 1/Final Notifikasi</testCaseId>
+      <testCaseId>Test Cases/Akun Saya/Notifikasi - 1/Final Notifikasi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>8</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_notifikasi</testDataId>

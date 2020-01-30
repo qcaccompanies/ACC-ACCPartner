@@ -38,7 +38,9 @@ if (expected_referral == 'true') {
         Mobile.tap(findTestObject('Daftar sebagai KACAB/button_confirm'), 0)
 
         WebUI.callTestCase(findTestCase('Daftar/Input Register'), [('var_full_name') : var_full_name, ('var_username') : var_username
-                , ('var_email') : var_email, ('expected_register_status') : expected_register_status], FailureHandling.STOP_ON_FAILURE)
+                , ('var_email') : var_email, ('var_phone_number') : var_phone_number, ('var_jabatan') : var_jabatan, ('var_password') : var_password
+                , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status], 
+            FailureHandling.STOP_ON_FAILURE)
     } else if (register_status == 'cancel') {
         Mobile.tap(findTestObject('Daftar sebagai KACAB/button_cancel'), 0)
     }

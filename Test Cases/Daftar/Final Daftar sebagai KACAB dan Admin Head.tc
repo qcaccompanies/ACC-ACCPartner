@@ -27,32 +27,60 @@
       <name>expected_referral</name>
    </variable>
    <variable>
-      <defaultValue>'cancel'</defaultValue>
+      <defaultValue>'confirm'</defaultValue>
       <description></description>
       <id>e5d1a1a1-c1e3-4fec-8001-155378cab7cd</id>
       <masked>false</masked>
       <name>register_status</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Coba coba'</defaultValue>
       <description></description>
       <id>3a35ab91-0276-42c7-928d-64e960db8bba</id>
       <masked>false</masked>
       <name>var_full_name</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'admin123'</defaultValue>
       <description></description>
       <id>58a94c92-9470-4780-8c5a-56552f48ca68</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'amourotezone@gmail.com'</defaultValue>
       <description></description>
       <id>760bf3cf-07e6-49a4-81cc-c5a79b563786</id>
       <masked>false</masked>
       <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'85700997427'</defaultValue>
+      <description></description>
+      <id>f170200f-316b-44a4-a7d3-f8b13131b311</id>
+      <masked>false</masked>
+      <name>var_phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>'KACAB'</defaultValue>
+      <description></description>
+      <id>5f6dd70f-0663-4103-adbb-a1fad85babd7</id>
+      <masked>false</masked>
+      <name>var_jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a262bbe3-9c70-45aa-9160-dd5c1eca7949</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9cd93fa6-77d7-4deb-97ce-1b4eea9ab83b</id>
+      <masked>false</masked>
+      <name>var_confirm_password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

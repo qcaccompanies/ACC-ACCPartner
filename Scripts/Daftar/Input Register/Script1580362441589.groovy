@@ -27,21 +27,29 @@ Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_email'), 0)
 
 Mobile.setText(findTestObject('Daftar sebagai KACAB/input_email'), var_email, 0)
 
+Mobile.tapAtPosition(200, 700)
+
 Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_phone_number'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_phone_number'), '85700997427', 0)
+Mobile.setText(findTestObject('Daftar sebagai KACAB/input_phone_number'), var_phone_number, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_jabatan'), 0)
+Mobile.tapAtPosition(100, 80)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/android.view.View0 - KACAB'), 0)
+Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_jabatan_2'), 0)
+
+Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_input_jabatan', [('text') : var_jabatan]), 0)
+
+not_run: Mobile.tapAtPosition(100, 80)
+
+not_run: Mobile.tap(findTestObject('Daftar sebagai KACAB/android.view.View0 - KACAB'), 0)
 
 Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_password'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_password'), '12', 0)
+Mobile.setText(findTestObject('Daftar sebagai KACAB/input_password'), var_password, 0)
 
 Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_confirm_password'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_confirm_password'), 'admin123', 0)
+Mobile.setText(findTestObject('Daftar sebagai KACAB/input_confirm_password'), var_confirm_password, 0)
 
 Mobile.tap(findTestObject('Daftar sebagai KACAB/button_dealer_info'), 0)
 

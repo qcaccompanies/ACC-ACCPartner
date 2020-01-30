@@ -29,6 +29,34 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>317dfcca-c42d-4a93-9acf-5c1fac57abbc</id>
+      <masked>false</masked>
+      <name>var_phone_number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d0431b2-ff0d-4464-b408-b97601f76422</id>
+      <masked>false</masked>
+      <name>var_jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33c6bd6b-b0be-4ecb-8554-bdbf6ec63f63</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed0160f2-9201-4129-ae57-cbc6c882bd02</id>
+      <masked>false</masked>
+      <name>var_confirm_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>34b77ab4-71d4-47fe-83d4-554f120fd3f3</id>
       <masked>false</masked>
       <name>expected_register_status</name>

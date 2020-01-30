@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Notifikasi</name>
+   <name>En or Dis Notifikasi</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>164ecffa-2d84-40ab-923f-05be0afcdc0d</testCaseGuid>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e314848d-275f-44a0-8242-60a1035f2d34</id>
-      <masked>false</masked>
-      <name>var_username</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d9b9857a-9f9b-44e1-a1f9-5cbbe162353e</id>
-      <masked>false</masked>
-      <name>var_password</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2bd125a5-b822-4681-a46e-fe4033a61aa4</id>
-      <masked>false</masked>
-      <name>expected_login</name>
-   </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

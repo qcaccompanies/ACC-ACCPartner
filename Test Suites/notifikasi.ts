@@ -14,51 +14,51 @@
       <guid>f94a9ead-5e20-4ffa-b1bc-feb2f35f9eb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Notifikasi</testCaseId>
+      <testCaseId>Test Cases/Notifikasi - 1/Final Notifikasi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>3c576823-19e3-4248-bb6c-86e8e06f62f2</id>
+         <id>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>8</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_notifikasi</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_username</value>
-         <variableId>e314848d-275f-44a0-8242-60a1035f2d34</variableId>
+         <variableId>b534082e-6147-4f90-928d-b8fb102e7d8c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_password</value>
-         <variableId>d9b9857a-9f9b-44e1-a1f9-5cbbe162353e</variableId>
+         <variableId>24b261c8-cc54-471f-b383-e3ef80785368</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected_login</value>
-         <variableId>2bd125a5-b822-4681-a46e-fe4033a61aa4</variableId>
+         <variableId>a8006fc2-4b3f-43b0-97ac-0f097d09b953</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_info_kenaikan_grade</value>
-         <variableId>76fe6b5a-9f39-4ac6-8ae8-4ff65b3019fa</variableId>
+         <variableId>b16a7c1c-e650-4f55-8b8c-3a06e0aca553</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_verifikasi_akun</value>
-         <variableId>5f601d30-b963-4ed7-b9a8-1126a429cd72</variableId>
+         <variableId>51051b3b-007c-4130-883e-251fc7ab068f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <testDataLinkId>cc6e3424-3cbd-401c-92ca-f2c2ee34f0ac</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>var_perubahan_data</value>
-         <variableId>52d01c38-5915-4abd-aaa8-6b5ce3df2864</variableId>
+         <variableId>508918a7-e40d-4d43-a823-4fdb06e9c741</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

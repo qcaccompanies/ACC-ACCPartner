@@ -14,12 +14,12 @@
       <guid>2883f6f1-112e-4753-9a60-2b543473540d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Forgot Password - 1/Final</testCaseId>
+      <testCaseId>Test Cases/Forgot Password - 1/Final Forgot Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a2ea8a43-baa2-4979-b4c5-406fc4a3c2c5</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>15-16</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_forgot_password</testDataId>

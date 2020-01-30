@@ -15,9 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Task ACC Partner\\accpartner.apk', true)
+not_run: WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/tap_username'), 0)
 

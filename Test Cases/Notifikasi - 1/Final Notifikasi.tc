@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Final Notifikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4928146-9218-4424-b3c4-7de6074df96b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b534082e-6147-4f90-928d-b8fb102e7d8c</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24b261c8-cc54-471f-b383-e3ef80785368</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8006fc2-4b3f-43b0-97ac-0f097d09b953</id>
+      <masked>false</masked>
+      <name>expected_login</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b16a7c1c-e650-4f55-8b8c-3a06e0aca553</id>
+      <masked>false</masked>
+      <name>var_info_kenaikan_grade</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51051b3b-007c-4130-883e-251fc7ab068f</id>
+      <masked>false</masked>
+      <name>var_verifikasi_akun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>508918a7-e40d-4d43-a823-4fdb06e9c741</id>
+      <masked>false</masked>
+      <name>var_perubahan_data</name>
+   </variable>
+</TestCaseEntity>

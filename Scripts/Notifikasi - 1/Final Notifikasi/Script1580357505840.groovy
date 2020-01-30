@@ -15,15 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : expected_login
-        , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (expected_login == 'passed') {
-    Mobile.tap(findTestObject('Notifikasi/tap_akun'), 0)
+if (Mobile.verifyElementVisible(findTestObject('Notifikasi/check_page_log_in'), 0)) {
+    WebUI.callTestCase(findTestCase('Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : expected_login
+            , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.OPTIONAL)
 
-    Mobile.tap(findTestObject('Notifikasi/tap_notifikasi'), 0)
+    WebUI.callTestCase(findTestCase('Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
+            , ('var_verifikasi_akun') : var_verifikasi_akun, ('var_perubahan_data') : var_perubahan_data], FailureHandling.STOP_ON_FAILURE)
+} else if (Mobile.verifyElementVisible(findTestObject('Notifikasi/check_page_is_logged_in'), 0)) {
+    WebUI.callTestCase(findTestCase('Notifikasi - 1/En or Dis Notifikasi'), [('var_info_kenaikan_grade') : var_info_kenaikan_grade
+            , ('var_verifikasi_akun') : var_verifikasi_akun, ('var_perubahan_data') : var_perubahan_data], FailureHandling.STOP_ON_FAILURE)
 
-    if (var_info_kenaikan_grade == 'enable') {
+    not_run: Mobile.tap(findTestObject('Notifikasi/tap_akun'), 0)
+
+    not_run: Mobile.tap(findTestObject('Notifikasi/tap_notifikasi'), 0)
+
+    not_run: if (var_info_kenaikan_grade == 'enable') {
         Mobile.verifyElementVisible(findTestObject('Notifikasi/warn - notif_enable_info_kenaikan_grade'), 0, FailureHandling.OPTIONAL)
 
         Mobile.tap(findTestObject('Notifikasi/tap_dis_to_en_info_kenaikan_grade'), 0, FailureHandling.OPTIONAL)
@@ -33,7 +41,7 @@ if (expected_login == 'passed') {
         Mobile.tap(findTestObject('Notifikasi/tap_en_to_dis_info_kenaikan_grade'), 0, FailureHandling.OPTIONAL)
     }
     
-    if (var_verifikasi_akun == 'enable') {
+    not_run: if (var_verifikasi_akun == 'enable') {
         Mobile.verifyElementVisible(findTestObject('Notifikasi/warn - notif_enable_verifikasi_akun'), 0, FailureHandling.OPTIONAL)
 
         Mobile.tap(findTestObject('Notifikasi/tap_dis_to_en_verifikasi_akun'), 0, FailureHandling.OPTIONAL)
@@ -43,7 +51,7 @@ if (expected_login == 'passed') {
         Mobile.tap(findTestObject('Notifikasi/tap_en_to_dis_verifikasi_akun'), 0, FailureHandling.OPTIONAL)
     }
     
-    if (var_perubahan_data == 'enable') {
+    not_run: if (var_perubahan_data == 'enable') {
         Mobile.verifyElementVisible(findTestObject('Notifikasi/warn - notif_enable_perubahan_data'), 0, FailureHandling.OPTIONAL)
 
         Mobile.tap(findTestObject('Notifikasi/tap_dis_to_en_perubahan_data'), 0, FailureHandling.OPTIONAL)

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d81ddcd2-553b-4a28-b317-4da7b6d8fca6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>07d0f31c-cf8b-4635-963f-bcc211944beb</id>
+      <masked>false</masked>
+      <name>var_full_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34a2b982-3863-4d47-a09c-45e0767f590b</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b4390969-2c15-4e5c-98a5-e25ea5e01930</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34b77ab4-71d4-47fe-83d4-554f120fd3f3</id>
+      <masked>false</masked>
+      <name>expected_register_status</name>
+   </variable>
+</TestCaseEntity>

@@ -7,5 +7,5 @@ import internal.GlobalVariable as GlobalVariable
 'required for PathUtil to get the current app path'
 def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.ApkName, RunConfiguration.getProjectDir())
 
-Mobile.startApplication(appPath, true)
+Mobile.startApplication(appPath, false)
 

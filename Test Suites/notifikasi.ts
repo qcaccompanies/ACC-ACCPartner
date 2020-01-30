@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>notifikasi</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6003ba37-c758-4b39-840e-bbc90fb2642f</testSuiteGuid>
+   <testCaseLink>
+      <guid>f94a9ead-5e20-4ffa-b1bc-feb2f35f9eb8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Notifikasi</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3c576823-19e3-4248-bb6c-86e8e06f62f2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data_binding_notifikasi</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_username</value>
+         <variableId>e314848d-275f-44a0-8242-60a1035f2d34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_password</value>
+         <variableId>d9b9857a-9f9b-44e1-a1f9-5cbbe162353e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_login</value>
+         <variableId>2bd125a5-b822-4681-a46e-fe4033a61aa4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_info_kenaikan_grade</value>
+         <variableId>76fe6b5a-9f39-4ac6-8ae8-4ff65b3019fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_verifikasi_akun</value>
+         <variableId>5f601d30-b963-4ed7-b9a8-1126a429cd72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3c576823-19e3-4248-bb6c-86e8e06f62f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_perubahan_data</value>
+         <variableId>52d01c38-5915-4abd-aaa8-6b5ce3df2864</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

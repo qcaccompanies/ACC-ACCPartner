@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Task ACC Partner\\accpartner.apk', true)
+not_run: Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Task ACC Partner\\accpartner.apk', true)
 
 not_run: Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Forgot Password/tap_forgot_password'), 0)
 

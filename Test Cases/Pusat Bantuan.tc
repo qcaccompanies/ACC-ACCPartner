@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pusat Bantuan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12c9ada1-e3ea-4c77-8822-94a9d1c88f0a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>856c08d8-b054-4013-8834-4a1bdb54e84a</id>
+      <masked>false</masked>
+      <name>expectedlogin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2bfd7089-8799-4524-8fb6-47cb89c929ad</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c920ba8-66b4-4b32-8b16-b1b7a235415a</id>
+      <masked>false</masked>
+      <name>search2</name>
+   </variable>
+</TestCaseEntity>

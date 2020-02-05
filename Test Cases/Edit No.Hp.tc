@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit No.Hp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4cfc63ae-2e20-45a4-b1eb-16b4f7edc17f</testCaseGuid>
+   <variable>
+      <defaultValue>'087774319689'</defaultValue>
+      <description></description>
+      <id>c9778ee6-4509-464b-8f23-6f80d9c2ab54</id>
+      <masked>false</masked>
+      <name>nomorlama</name>
+   </variable>
+   <variable>
+      <defaultValue>'081397939741\r\n'</defaultValue>
+      <description></description>
+      <id>c2390cca-2f16-4adb-8eac-0ef7f9a83706</id>
+      <masked>false</masked>
+      <name>nomorbaru</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f149ab3-36c0-4518-b444-54ac558f24cd</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

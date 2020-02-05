@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>4cfc63ae-2e20-45a4-b1eb-16b4f7edc17f</testCaseGuid>
    <variable>
-      <defaultValue>'087774319689'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>c9778ee6-4509-464b-8f23-6f80d9c2ab54</id>
       <masked>false</masked>
       <name>nomorlama</name>
    </variable>
    <variable>
-      <defaultValue>'081397939741\r\n'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>c2390cca-2f16-4adb-8eac-0ef7f9a83706</id>
       <masked>false</masked>

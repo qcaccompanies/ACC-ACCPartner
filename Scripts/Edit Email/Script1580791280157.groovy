@@ -21,25 +21,49 @@ Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
 
 Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
 
-not_run: Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Status - Terverifikasi'), 0)
+if (expected == 'Passed') {
+    not_run: Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Status - Terverifikasi'), 0)
 
-Mobile.tap(findTestObject('Edit No.hp dan Email/Btn Edit Email'), 0)
+    Mobile.tap(findTestObject('Edit No.hp dan Email/Edit Email'), 0)
 
-Mobile.setText(findTestObject('Edit No.hp dan Email/Set Email Lama'), 'fityanardi24@gmail.com', 0)
+    Mobile.setText(findTestObject('Edit No.hp dan Email/Set Email Lama'), Email_Lama, 0)
 
-Mobile.setText(findTestObject('Edit No.hp dan Email/Set Email Baru'), 'Gery.testacc@gmail.com', 0)
+    Mobile.setText(findTestObject('Edit No.hp dan Email/Set Email Baru'), Email_Baru, 0)
 
-Mobile.tap(findTestObject('Edit No.hp dan Email/Btn Ubah Edit No.hp dan Email'), 0)
+    Mobile.tap(findTestObject('Edit No.hp dan Email/Btn Ubah Edit No.hp dan Email'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
+    WebUI.delay(5)
+
+    Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
+
+    Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
+
+    Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Status - Reverify'), 0)
+
+    Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
+}
+
+Mobile.tap(findTestObject('ViewProfileObject/btnKeluar'), 0)
+
+Mobile.tap(findTestObject('ViewProfileObject/btnYa Keluar'), 0)
+
+if (expected == 'Passed') {
+    Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+    Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+
+    Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+    Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+
+    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+}
+
+Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
 
 Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('ViewProfileObject/btnKeluar'), 0)
-
-not_run: Mobile.tap(findTestObject('ViewProfileObject/btnYa Keluar'), 0)
+WebUI.delay(5)
 
 Mobile.closeApplication()
 

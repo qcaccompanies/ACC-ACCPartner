@@ -93,7 +93,7 @@ if (expectedlogin == 'passed') {
     not_run: Mobile.tap(findTestObject('Pusat Bantuan/FAQ - Q21'), 0)
 }
 
-Mobile.setText(findTestObject('Pusat Bantuan/Search box FAQ'), 'FAQ', 0)
+Mobile.setText(findTestObject('Pusat Bantuan/Search box FAQ'), search, 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verifikasi no Handphone</name>
+   <name>Halaman Dealer Info</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e7458010-9a26-4f00-9780-209b2db63edc</testCaseGuid>
+   <testCaseGuid>991db564-2513-4fed-a93d-14bce0eea4f0</testCaseGuid>
 </TestCaseEntity>

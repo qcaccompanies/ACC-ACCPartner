@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Daftar sebagai KACAB/tap_daftar'), 0)
+
 Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_daftar'), 0)
 
 Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_referral_code'), 0)
@@ -30,23 +32,4 @@ if (dealer_info == 'DSO Ciputat') {
 }
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-if (expected_referral == 'true') {
-    not_run: Mobile.tap(findTestObject('Daftar sebagai KACAB/button_confirm_hide'), 0)
-
-    if (register_status == 'confirm') {
-        Mobile.tap(findTestObject('Daftar sebagai KACAB/button_confirm'), 0)
-
-        WebUI.callTestCase(findTestCase('Daftar/Input Register'), [('var_full_name') : var_full_name, ('var_username') : var_username
-                , ('var_email') : var_email, ('var_phone_number') : var_phone_number, ('var_jabatan') : var_jabatan, ('var_password') : var_password
-                , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status], 
-            FailureHandling.STOP_ON_FAILURE)
-    } else if (register_status == 'cancel') {
-        Mobile.tap(findTestObject('Daftar sebagai KACAB/button_cancel'), 0)
-    }
-} else if (expected_referral == 'false') {
-    Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - REFERAL CODE SALAH'), 0)
-}
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

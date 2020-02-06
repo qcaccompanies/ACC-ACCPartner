@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Final Daftar sebagai Supervisor dan Salesman</name>
+   <name>Halaman Verifikasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7fd76cc6-1bbb-4b3e-9127-da91646894c5</testCaseGuid>
+   <testCaseGuid>1d4429f5-5a30-42aa-8548-e971206e42b7</testCaseGuid>
 </TestCaseEntity>

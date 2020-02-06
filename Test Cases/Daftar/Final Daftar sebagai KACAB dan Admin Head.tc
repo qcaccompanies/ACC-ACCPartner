@@ -4,89 +4,96 @@
    <name>Final Daftar sebagai KACAB dan Admin Head</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>adaa948b-2ae9-4bbd-a897-4a7a8ff25b36</testCaseGuid>
+   <testCaseGuid>6a98e8dc-0416-45ef-b9a5-017012fac47d</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0b183639-414a-40ba-be2a-0c5bbdb5f9fe</id>
+      <id>4f86fab5-db63-4851-9bf0-c04e292d4129</id>
       <masked>false</masked>
       <name>var_referral</name>
    </variable>
    <variable>
-      <defaultValue>'DSO Ciputat'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>8d150ceb-1660-416e-a3f0-cbfac41d7a84</id>
+      <id>565eaddb-8601-4056-bc04-0ccd229df183</id>
       <masked>false</masked>
       <name>dealer_info</name>
    </variable>
    <variable>
-      <defaultValue>'true'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>0dfbcb26-0b2b-4780-9c76-cf7d27dc623d</id>
+      <id>f538c704-2be6-4c2a-a789-105cfab887d6</id>
       <masked>false</masked>
       <name>expected_referral</name>
    </variable>
    <variable>
-      <defaultValue>'confirm'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>e5d1a1a1-c1e3-4fec-8001-155378cab7cd</id>
+      <id>9c82fa66-5313-4df9-bce7-668dd22e91f3</id>
       <masked>false</masked>
       <name>register_status</name>
    </variable>
    <variable>
-      <defaultValue>'Coba coba'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>3a35ab91-0276-42c7-928d-64e960db8bba</id>
+      <id>c0698328-4b16-466c-9e0f-82f3a6b2fc9d</id>
       <masked>false</masked>
       <name>var_full_name</name>
    </variable>
    <variable>
-      <defaultValue>'admin123'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>58a94c92-9470-4780-8c5a-56552f48ca68</id>
+      <id>97ee4de7-0870-45a1-93d0-beafbf81ea02</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>'amourotezone@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>760bf3cf-07e6-49a4-81cc-c5a79b563786</id>
+      <id>b6fb7994-decc-413f-8bef-ed098f3da171</id>
       <masked>false</masked>
       <name>var_email</name>
    </variable>
    <variable>
-      <defaultValue>'85700997427'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>f170200f-316b-44a4-a7d3-f8b13131b311</id>
+      <id>0c34eb70-0451-4007-a3c2-099364cf8acc</id>
       <masked>false</masked>
       <name>var_phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'KACAB'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>5f6dd70f-0663-4103-adbb-a1fad85babd7</id>
+      <id>696c40d2-1d69-4894-991d-dc0f0e7c29e5</id>
       <masked>false</masked>
       <name>var_jabatan</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a262bbe3-9c70-45aa-9160-dd5c1eca7949</id>
+      <id>30689da5-65b1-4bf3-a2f6-fee47403c920</id>
       <masked>false</masked>
       <name>var_password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9cd93fa6-77d7-4deb-97ce-1b4eea9ab83b</id>
+      <id>63713392-766a-4dae-b292-e5a760b289f1</id>
       <masked>false</masked>
       <name>var_confirm_password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>849ec50b-6608-478f-b644-a1f3075936db</id>
+      <id>1011348b-e8fe-48ca-8c75-4a482ac99b93</id>
       <masked>false</masked>
       <name>expected_register_status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57b41864-2e82-45d9-be0b-474334732698</id>
+      <masked>false</masked>
+      <name>keterangan</name>
    </variable>
 </TestCaseEntity>

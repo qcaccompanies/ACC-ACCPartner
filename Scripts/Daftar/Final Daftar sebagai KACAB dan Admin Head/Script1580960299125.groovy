@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Daftar/Kode Referal'), [('var_referral') : var_referral, ('dealer_info') : dealer_info], 
     FailureHandling.STOP_ON_FAILURE)
 
-if (expected_referral == 'passed') {
+not_run: if (expected_referral == 'passed') {
     if (register_status == 'confirm') {
         Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -36,4 +36,21 @@ if (expected_referral == 'passed') {
 }
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+if (register_status == 'confirm') {
+    if (expected_referral == 'passed') {
+        Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.tap(findTestObject('Daftar sebagai KACAB/button_confirm'), 0)
+
+        WebUI.callTestCase(findTestCase('Daftar/Halaman Daftar'), [('var_full_name') : var_full_name, ('var_username') : var_username
+                , ('var_email') : var_email, ('var_phone_number') : var_phone_number, ('var_jabatan') : var_jabatan, ('var_password') : var_password
+                , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status
+                , ('keterangan') : keterangan], FailureHandling.STOP_ON_FAILURE)
+    } else if (expected_referral == 'failed') {
+        Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - REFERAL CODE SALAH'), 0)
+    }
+} else if (register_status == 'cancel') {
+    Mobile.tap(findTestObject('Daftar sebagai KACAB/button_cancel'), 0)
+}
 

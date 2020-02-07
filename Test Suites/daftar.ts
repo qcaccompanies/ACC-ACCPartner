@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>fc3f643f-5bd8-496b-83cb-5d504a07cf7c</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>17,20,22,23,26,28</value>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_daftar</testDataId>
       </testDataLink>

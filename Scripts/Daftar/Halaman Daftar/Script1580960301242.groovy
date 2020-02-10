@@ -15,89 +15,101 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_full_name'), 0)
+Mobile.tap(findTestObject('Daftar/tap_full_name'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_full_name'), var_full_name, 0)
+Mobile.setText(findTestObject('Daftar/input_full_name'), var_full_name, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_username'), 0)
+Mobile.tap(findTestObject('Daftar/tap_username'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_username'), var_username, 0)
+Mobile.setText(findTestObject('Daftar/input_username'), var_username, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_email'), 0)
+Mobile.tap(findTestObject('Daftar/tap_email'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_email'), var_email, 0)
+Mobile.setText(findTestObject('Daftar/input_email'), var_email, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_phone_number'), 0)
+Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_phone_number'), var_phone_number, 0)
+Mobile.setText(findTestObject('Daftar/input_phone_number'), var_phone_number, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_email'), 0)
+Mobile.tap(findTestObject('Daftar/tap_email'), 0)
 
-not_run: Mobile.tapAtPosition(562, 179)
-
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_phone_number'), 0)
+Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_phone_number'), 0)
+Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
 
 Mobile.tapAtPosition(562, 179)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_jabatan - Copy'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Daftar/tap_jabatan - Copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_password'), 0)
+Mobile.tap(findTestObject('Daftar/tap_password'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_password'), var_password, 0)
+Mobile.setText(findTestObject('Daftar/input_password'), var_password, 0)
 
-Mobile.tap(findTestObject('Daftar sebagai KACAB/tap_confirm_password'), 0)
+Mobile.tap(findTestObject('Daftar/tap_confirm_password'), 0)
 
-Mobile.setText(findTestObject('Daftar sebagai KACAB/input_confirm_password'), var_confirm_password, 0)
+Mobile.setText(findTestObject('Daftar/input_confirm_password'), var_confirm_password, 0)
 
 switch (expected_register_status) {
     case 'passed':
-        Mobile.tap(findTestObject('Daftar sebagai KACAB/button_dealer_info'), 0)
+        if ((var_jabatan == 'KACAB') || (var_jabatan == 'ADMIN HEAD')) {
+            Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0)
 
+            WebUI.callTestCase(findTestCase('Daftar/Halaman Dealer Info'), [('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos
+                    , ('var_kecamatan') : var_kecamatan, ('var_kelurahan') : var_kelurahan, ('var_kota') : var_kota, ('var_provinsi') : var_provinsi
+                    , ('expected_dealer_page') : expected_dealer_page, ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], 
+                FailureHandling.STOP_ON_FAILURE)
+        } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
+            Mobile.tap(findTestObject('Daftar/button_daftar'), 0)
+
+            WebUI.callTestCase(findTestCase('Daftar/Halaman Verifikasi'), [('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], 
+                FailureHandling.STOP_ON_FAILURE)
+        }
+        
         break
     case 'failed':
-        Mobile.tap(findTestObject('Daftar sebagai KACAB/button_dealer_info'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+        Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
         if (keterangan == 'empty_field') {
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Nama harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Nama harus diisi'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Username harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username harus diisi'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Email harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Email harus diisi'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Kata Sandi harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi harus diisi'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - No.Handphone Harus Diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - No.Handphone Harus Diisi'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Jabatan harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Jabatan harus diisi'), 0, FailureHandling.OPTIONAL)
         } else if (keterangan == 'error_length') {
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Panjang karakter Nama harus diantara 3 sampai 30'), 
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Nama harus diantara 3 sampai 30'), 
                 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Panjang karakter Username harus diantara 6 sampai 20'), 
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Username harus diantara 6 sampai 20'), 
                 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Panjang karakter Email harus diantara 13 sampai 50'), 
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Email harus diantara 13 sampai 50'), 
                 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Panjang karakter No.Handphone harus diantara 10 sampai 15'), 
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter No.Handphone harus diantara 10 sampai 15'), 
                 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Panjang karakter Password harus diantara 7 sampai 20'), 
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Password harus diantara 7 sampai 20'), 
                 0, FailureHandling.OPTIONAL)
         } else if (keterangan == 'invalid_format') {
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Format Username tidak sesuai'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Username tidak sesuai'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Format Email tidak Valid'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Email tidak Valid'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Format Password tidak sesuai'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Password tidak sesuai'), 0, FailureHandling.OPTIONAL)
         } else if (keterangan == 'password_is_not_match') {
-            Mobile.verifyElementVisible(findTestObject('Daftar sebagai KACAB/warn - Kata Sandi tidak sesuai'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi tidak sesuai'), 0, FailureHandling.STOP_ON_FAILURE)
+        } else if (keterangan == 'username_is_exist') {
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username sudah digunakan'), 0, FailureHandling.STOP_ON_FAILURE)
         }
         
         break

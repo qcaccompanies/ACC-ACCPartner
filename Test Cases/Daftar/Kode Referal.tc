@@ -13,7 +13,7 @@
       <name>var_referral</name>
    </variable>
    <variable>
-      <defaultValue>'DSO Ciputat'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>cb129488-bd64-4e53-b36d-bee4a8065f7e</id>
       <masked>false</masked>

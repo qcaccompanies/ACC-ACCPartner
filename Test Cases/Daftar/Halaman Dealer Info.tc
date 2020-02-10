@@ -47,4 +47,25 @@
       <masked>false</masked>
       <name>var_provinsi</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c893053-04dc-4cbe-9cbd-f40780bf042d</id>
+      <masked>false</masked>
+      <name>expected_dealer_page</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4571a959-0e8b-4260-8e59-88a2c97924be</id>
+      <masked>false</masked>
+      <name>status_verifikasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d4822c0-39f6-4405-b431-1206b7a9e602</id>
+      <masked>false</masked>
+      <name>expected_verifikasi</name>
+   </variable>
 </TestCaseEntity>

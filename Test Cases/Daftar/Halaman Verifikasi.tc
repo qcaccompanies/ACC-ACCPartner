@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1d4429f5-5a30-42aa-8548-e971206e42b7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e74a9ecb-3903-4a65-a423-29ecafad82df</id>
+      <masked>false</masked>
+      <name>status_verifikasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6325ce28-2610-46cf-83f1-f12e655b4f8e</id>
+      <masked>false</masked>
+      <name>expected_verifikasi</name>
+   </variable>
 </TestCaseEntity>

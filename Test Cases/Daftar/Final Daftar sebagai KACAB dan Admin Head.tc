@@ -97,7 +97,7 @@
       <name>keterangan</name>
    </variable>
    <variable>
-      <defaultValue>'jalan jalan'</defaultValue>
+      <defaultValue>'JALAN JALAN'</defaultValue>
       <description></description>
       <id>e359a870-d970-49ea-ae6d-5308de5cf5ac</id>
       <masked>false</masked>
@@ -111,28 +111,35 @@
       <name>var_kode_pos</name>
    </variable>
    <variable>
-      <defaultValue>'sako'</defaultValue>
+      <defaultValue>'30163 - SAKO'</defaultValue>
+      <description></description>
+      <id>a108a31f-c25c-4876-b2da-61d57214410f</id>
+      <masked>false</masked>
+      <name>var_input_kode_pos</name>
+   </variable>
+   <variable>
+      <defaultValue>'SAKO BARU'</defaultValue>
       <description></description>
       <id>464b3acc-e584-469f-b585-5f0bec6296b9</id>
       <masked>false</masked>
       <name>var_kelurahan</name>
    </variable>
    <variable>
-      <defaultValue>'sako'</defaultValue>
+      <defaultValue>'SAKO'</defaultValue>
       <description></description>
       <id>a0ae6427-acaf-47c3-aa2e-0832dd390b13</id>
       <masked>false</masked>
       <name>var_kecamatan</name>
    </variable>
    <variable>
-      <defaultValue>'palembang'</defaultValue>
+      <defaultValue>'PALEMBANG'</defaultValue>
       <description></description>
       <id>b9b38fde-962e-447a-a0d4-53421e6f70f0</id>
       <masked>false</masked>
       <name>var_kota</name>
    </variable>
    <variable>
-      <defaultValue>'sumatra selatan'</defaultValue>
+      <defaultValue>'SUMATRA SELATAN'</defaultValue>
       <description></description>
       <id>c2445a1a-65e8-4311-a5ab-92e2d9632d46</id>
       <masked>false</masked>

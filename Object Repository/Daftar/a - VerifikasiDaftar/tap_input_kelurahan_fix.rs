@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tap_input_jabatan - Copy</name>
+   <name>tap_input_kelurahan_fix</name>
    <tag></tag>
-   <elementGuidId>51e4e547-4726-43f2-bfb5-912c15672e0b</elementGuidId>
+   <elementGuidId>2461f596-ba29-47f8-970e-72c9bad0e4bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '${text}' or . = '${text}')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//*[@class = 'android.view.View' and (text() = '${text}' or . = '${text}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

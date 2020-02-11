@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_kecamatan</name>
+   <name>input_kecamatan_fix</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1][count(. | //*[@class = 'android.widget.EditText' and @resource-id = 'b3-Input_Kecamatan']) = count(//*[@class = 'android.widget.EditText' and @resource-id = 'b3-Input_Kecamatan'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.EditText[1][count(. | //*[@class = 'android.widget.EditText' and (text() = 'SAKO' or . = 'SAKO') and @resource-id = 'b3-Input_Kecamatan']) = count(//*[@class = 'android.widget.EditText' and (text() = 'SAKO' or . = 'SAKO') and @resource-id = 'b3-Input_Kecamatan'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,6 +18,13 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SAKO</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,19 +80,12 @@
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>scrollable</name>
-      <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>long-clickable</name>
+      <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
@@ -108,7 +108,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>791</value>
+      <value>790</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>68</value>
+      <value>70</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

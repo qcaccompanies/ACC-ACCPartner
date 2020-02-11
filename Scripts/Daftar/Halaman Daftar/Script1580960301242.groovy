@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
 
 Mobile.tapAtPosition(562, 179)
 
-Mobile.tap(findTestObject('Daftar/tap_jabatan - Copy'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Daftar/tap_jabatan'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.OPTIONAL)
 
@@ -59,9 +59,9 @@ switch (expected_register_status) {
             Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0)
 
             WebUI.callTestCase(findTestCase('Daftar/Halaman Dealer Info'), [('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos
-                    , ('var_kecamatan') : var_kecamatan, ('var_kelurahan') : var_kelurahan, ('var_kota') : var_kota, ('var_provinsi') : var_provinsi
-                    , ('expected_dealer_page') : expected_dealer_page, ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], 
-                FailureHandling.STOP_ON_FAILURE)
+                    , ('var_input_kode_pos') : var_input_kode_pos, ('var_kecamatan') : var_kecamatan, ('var_kelurahan') : var_kelurahan
+                    , ('var_kota') : var_kota, ('var_provinsi') : var_provinsi, ('expected_dealer_page') : expected_dealer_page
+                    , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], FailureHandling.STOP_ON_FAILURE)
         } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
             Mobile.tap(findTestObject('Daftar/button_daftar'), 0)
 

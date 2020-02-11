@@ -23,7 +23,7 @@ Mobile.waitForElementPresent(findTestObject('Daftar/tap_daftar'), 0)
 
 Mobile.tap(findTestObject('Daftar/tap_daftar'), 0)
 
-Mobile.tap(findTestObject('Daftar/tap_referral_code'), 0)
+Mobile.tap(findTestObject('Daftar/tap_kode_referral'), 0)
 
 if (dealer_info == 'DSO Ciputat') {
     Mobile.setText(findTestObject('Daftar/input_referral_code'), '74DIGC', 0)

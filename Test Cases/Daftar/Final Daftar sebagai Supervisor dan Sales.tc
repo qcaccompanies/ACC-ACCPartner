@@ -4,109 +4,109 @@
    <name>Final Daftar sebagai Supervisor dan Sales</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>860f0c34-9573-452f-90ab-b24b97fdefcf</testCaseGuid>
+   <testCaseGuid>8e1866ba-5e47-4b21-bf74-6e7a82280886</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3db476ab-5d7e-46f9-847b-71248916934d</id>
+      <id>fd5e8224-ed57-4890-aa39-ef6c1172bee1</id>
       <masked>false</masked>
       <name>var_referral</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'DSO Ciputat'</defaultValue>
       <description></description>
-      <id>b283ec83-8364-4bb9-855e-2e30d235668f</id>
+      <id>476773c4-c9de-4549-bc9b-fe8f6a85b162</id>
       <masked>false</masked>
       <name>dealer_info</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'passed'</defaultValue>
       <description></description>
-      <id>c50b5da6-8a45-488f-a870-cbdd1755ea83</id>
+      <id>b79b0503-c632-42bc-b64f-fda2f117b75e</id>
       <masked>false</masked>
       <name>expected_referral</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'confirm'</defaultValue>
       <description></description>
-      <id>c98add08-2803-4ea1-8c2f-9a441ee0104a</id>
+      <id>f225d1a7-e48f-45a4-a094-6677837e4f1b</id>
       <masked>false</masked>
       <name>register_status</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'cobaa'</defaultValue>
       <description></description>
-      <id>a7bfa35f-7f9c-42d0-a909-a756e3f11af1</id>
+      <id>43b777eb-80b1-40df-acad-fe776e2936fb</id>
       <masked>false</masked>
       <name>var_full_name</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'admin123456'</defaultValue>
       <description></description>
-      <id>249a1cdc-6ac0-44ef-ad8c-fd51355c2463</id>
+      <id>7c6869cc-7bfe-40e3-99f7-6c93dd72f9a7</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'amourotezone@gmail.com'</defaultValue>
       <description></description>
-      <id>fa141f0d-6299-4579-b979-4a81cb335c4c</id>
+      <id>0aa1d082-e490-4c19-abcb-981075cca826</id>
       <masked>false</masked>
       <name>var_email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'85700997427'</defaultValue>
       <description></description>
-      <id>63c3cd57-a863-4d73-b4fd-76df2186b924</id>
+      <id>70e1b3fb-9913-4cb0-85f2-f9c4ce44129a</id>
       <masked>false</masked>
       <name>var_phone_number</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SUPERVISOR'</defaultValue>
       <description></description>
-      <id>eed78143-69e9-4e3a-a7b0-7816d1f64406</id>
+      <id>92473f71-e5c9-48c2-9c93-898bc0e365e9</id>
       <masked>false</masked>
       <name>var_jabatan</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'admin99'</defaultValue>
       <description></description>
-      <id>c84feb48-093f-4909-a5b9-08d662de5536</id>
+      <id>80dcde01-78cd-461c-b537-029413c7b8cb</id>
       <masked>false</masked>
       <name>var_password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'admin99'</defaultValue>
       <description></description>
-      <id>0db01308-6076-48fb-b821-f808f2d6b137</id>
+      <id>c7c2c326-36c0-4fc4-841a-5eb29779bffa</id>
       <masked>false</masked>
       <name>var_confirm_password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'passed'</defaultValue>
       <description></description>
-      <id>6b5f178f-7ea2-438a-91c6-bf723c53315d</id>
+      <id>13102cff-cc0b-4438-9d36-d0170a659f29</id>
       <masked>false</masked>
       <name>expected_register_status</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>753d215c-91f4-46e8-9981-74cc3fabf05c</id>
+      <id>51edaa0c-d678-4cb5-8a84-f8244b9f5c21</id>
       <masked>false</masked>
       <name>keterangan</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'kirim_ulang'</defaultValue>
       <description></description>
-      <id>8a5c5505-f7ab-4551-aee0-7570949f3669</id>
+      <id>12593641-6976-497a-863a-25f9c0053273</id>
       <masked>false</masked>
       <name>status_verifikasi</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'passed'</defaultValue>
       <description></description>
-      <id>1cf9e67d-c67b-4b31-8790-a615bca49915</id>
+      <id>e193f0cf-83be-4be9-b4de-9fd3e506b5b8</id>
       <masked>false</masked>
       <name>expected_verifikasi</name>
    </variable>

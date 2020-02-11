@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tap_input_kode_pos_1</name>
+   <name>tap_input_kode_pos_fix</name>
    <tag></tag>
    <elementGuidId>51ffb359-9fe1-4e35-b75e-dfcc45ccdc5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '${text1}' or . = '${text1}')]</value>
+         <value>//*[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,6 +27,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${text1}</value>
+      <value>${text}</value>
    </webElementProperties>
 </WebElementEntity>

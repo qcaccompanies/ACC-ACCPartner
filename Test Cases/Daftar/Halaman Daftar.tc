@@ -85,6 +85,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>81660004-e4d5-4c30-ae50-b8c78378b866</id>
+      <masked>false</masked>
+      <name>var_input_kode_pos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>b75036b1-15c4-4486-9c33-0f9a810e3bc0</id>
       <masked>false</masked>
       <name>var_kecamatan</name>

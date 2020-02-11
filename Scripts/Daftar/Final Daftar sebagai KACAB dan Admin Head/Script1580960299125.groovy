@@ -29,7 +29,7 @@ if (register_status == 'confirm') {
         WebUI.callTestCase(findTestCase('Daftar/Halaman Daftar'), [('var_full_name') : var_full_name, ('var_username') : var_username
                 , ('var_email') : var_email, ('var_phone_number') : var_phone_number, ('var_jabatan') : var_jabatan, ('var_password') : var_password
                 , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status
-                , ('keterangan') : keterangan, ('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos, ('var_kecamatan') : var_kecamatan
+                , ('keterangan') : keterangan, ('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos, , ('var_input_kode_pos') : var_input_kode_pos,('var_kecamatan') : var_kecamatan
                 , ('var_kelurahan') : var_kelurahan, ('var_kota') : var_kota, ('var_provinsi') : var_provinsi, ('expected_dealer_page') : expected_dealer_page
                 , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], FailureHandling.STOP_ON_FAILURE)
     } else if (expected_referral == 'failed') {

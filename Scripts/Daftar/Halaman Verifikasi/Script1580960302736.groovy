@@ -37,12 +37,12 @@ if (status_verifikasi == 'normal') {
             break
     }
 } else if (status_verifikasi == 'kirim_ulang') {
-    Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
-
     switch (expected_verifikasi) {
         case 'passed':
+            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
+
             Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - 00 29'), 0)
 
             break
@@ -52,24 +52,24 @@ if (status_verifikasi == 'normal') {
             break
     }
 } else if (status_verifikasi == '3_kali_kirim_ulang') {
-    Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
-
-    Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (13)'), 0)
-
-    Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (23)'), 0)
-
-    Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (33)'), 0)
-
     switch (expected_verifikasi) {
         case 'passed':
+            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
+
+            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (13)'), 0)
+
+            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (23)'), 0)
+
+            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (33)'), 0)
+
             Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Recaptcha memerlukan verifikasi. Saya bukan robot'), 
                 0)
 

@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('G:\\accpartner.apk', false)
+
+Mobile.tap(findTestObject('Info dan Berita Acc/Lihat Semua'), 0)
+
+Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), 'info', 0)
+
+Mobile.tap(findTestObject('Info dan Berita Acc/Image 1'), 0)
+
+Mobile.closeApplication()
+

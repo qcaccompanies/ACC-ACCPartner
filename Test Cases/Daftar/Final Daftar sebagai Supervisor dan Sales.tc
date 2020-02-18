@@ -13,77 +13,77 @@
       <name>var_referral</name>
    </variable>
    <variable>
-      <defaultValue>'DSO Ciputat'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>476773c4-c9de-4549-bc9b-fe8f6a85b162</id>
       <masked>false</masked>
       <name>dealer_info</name>
    </variable>
    <variable>
-      <defaultValue>'passed'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>b79b0503-c632-42bc-b64f-fda2f117b75e</id>
       <masked>false</masked>
       <name>expected_referral</name>
    </variable>
    <variable>
-      <defaultValue>'confirm'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>f225d1a7-e48f-45a4-a094-6677837e4f1b</id>
       <masked>false</masked>
       <name>register_status</name>
    </variable>
    <variable>
-      <defaultValue>'cobaa'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>43b777eb-80b1-40df-acad-fe776e2936fb</id>
       <masked>false</masked>
       <name>var_full_name</name>
    </variable>
    <variable>
-      <defaultValue>'admin123456'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7c6869cc-7bfe-40e3-99f7-6c93dd72f9a7</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>'amourotezone@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>0aa1d082-e490-4c19-abcb-981075cca826</id>
       <masked>false</masked>
       <name>var_email</name>
    </variable>
    <variable>
-      <defaultValue>'85700997427'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>70e1b3fb-9913-4cb0-85f2-f9c4ce44129a</id>
       <masked>false</masked>
       <name>var_phone_number</name>
    </variable>
    <variable>
-      <defaultValue>'SUPERVISOR'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>92473f71-e5c9-48c2-9c93-898bc0e365e9</id>
       <masked>false</masked>
       <name>var_jabatan</name>
    </variable>
    <variable>
-      <defaultValue>'admin99'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>80dcde01-78cd-461c-b537-029413c7b8cb</id>
       <masked>false</masked>
       <name>var_password</name>
    </variable>
    <variable>
-      <defaultValue>'admin99'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>c7c2c326-36c0-4fc4-841a-5eb29779bffa</id>
       <masked>false</masked>
       <name>var_confirm_password</name>
    </variable>
    <variable>
-      <defaultValue>'passed'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>13102cff-cc0b-4438-9d36-d0170a659f29</id>
       <masked>false</masked>
@@ -97,14 +97,14 @@
       <name>keterangan</name>
    </variable>
    <variable>
-      <defaultValue>'kirim_ulang'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>12593641-6976-497a-863a-25f9c0053273</id>
       <masked>false</masked>
       <name>status_verifikasi</name>
    </variable>
    <variable>
-      <defaultValue>'passed'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e193f0cf-83be-4be9-b4de-9fd3e506b5b8</id>
       <masked>false</masked>

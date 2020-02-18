@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startApplication('C:\\Users\\asus\\git\\baru fix\\ACC-ACCPartner\\accpartner (2).apk', false)
+Mobile.startApplication('C:\\Users\\asus\\Downloads\\accpartner (3).apk', false)
 
 Mobile.waitForElementPresent(findTestObject('Daftar/tap_daftar'), 0)
 

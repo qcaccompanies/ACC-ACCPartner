@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>554caa54-3479-41ef-8386-383fc2b6468e</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>10-58</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>10</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_daftar_kacab_atau_admin_head</testDataId>
       </testDataLink>

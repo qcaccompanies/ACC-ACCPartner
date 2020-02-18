@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>becdff01-9c16-43ad-a285-173f36477199</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
       </testDataLink>
@@ -149,6 +149,12 @@
          <type>DATA_COLUMN</type>
          <value>AdaFoto</value>
          <variableId>a4e58a05-a711-490f-939e-90df652ad182</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5a5ba49-a951-45d0-b568-c41464774ea0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -20,7 +20,14 @@
       <name>Cabang</name>
    </variable>
    <variable>
-      <defaultValue>'TOYOTA'</defaultValue>
+      <defaultValue>'PKT DHT SAHABAT'</defaultValue>
+      <description></description>
+      <id>a5a5ba49-a951-45d0-b568-c41464774ea0</id>
+      <masked>false</masked>
+      <name>Paket</name>
+   </variable>
+   <variable>
+      <defaultValue>'DAIHATSU'</defaultValue>
       <description></description>
       <id>e7081c21-3aaf-4271-ae9f-26687ce2f6c5</id>
       <masked>false</masked>

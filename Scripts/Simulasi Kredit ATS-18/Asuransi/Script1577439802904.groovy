@@ -21,7 +21,7 @@ if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asurans
     CustomKeywords.'mobile.PickList.List'(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun2]), 
         FailureHandling.STOP_ON_FAILURE)
 
-    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun2]), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun2]), 0)
 }
 
 if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 3'), 0, FailureHandling.OPTIONAL)) {

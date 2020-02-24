@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Performance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc56214b-2dc5-491e-a1f1-eab626d0740b</testCaseGuid>
+   <variable>
+      <defaultValue>'SalesCiputat1'</defaultValue>
+      <description></description>
+      <id>33ceb0aa-b116-48f0-8bc5-edb4b2f0d74e</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>6c7bfbc9-e4c8-42dc-89da-975836020d22</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'passed'</defaultValue>
+      <description></description>
+      <id>280314f0-4ce4-4e1b-90bd-ba1ac5fecc37</id>
+      <masked>false</masked>
+      <name>expected_login</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef2cefd7-990d-4318-9479-c9aa0406c2d9</id>
+      <masked>false</masked>
+      <name>status_login</name>
+   </variable>
+   <variable>
+      <defaultValue>'Feb 2020'</defaultValue>
+      <description></description>
+      <id>ca97ee5b-6506-4f43-aa58-5e21f83f3a2d</id>
+      <masked>false</masked>
+      <name>var_bulan</name>
+   </variable>
+</TestCaseEntity>

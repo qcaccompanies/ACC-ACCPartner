@@ -34,7 +34,7 @@
       <name>status_login</name>
    </variable>
    <variable>
-      <defaultValue>'Feb 2020'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>ca97ee5b-6506-4f43-aa58-5e21f83f3a2d</id>
       <masked>false</masked>

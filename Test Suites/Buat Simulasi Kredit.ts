@@ -117,7 +117,7 @@
       <variableLink>
          <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Pembayaran</value>
+         <value>Pembayaran1</value>
          <variableId>1df864da-da77-4df6-929d-76f463c99f83</variableId>
       </variableLink>
       <variableLink>
@@ -151,10 +151,58 @@
          <variableId>a4e58a05-a711-490f-939e-90df652ad182</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Paket</value>
          <variableId>a5a5ba49-a951-45d0-b568-c41464774ea0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PaketOnOff</value>
+         <variableId>8db027bd-fed5-47fa-bede-0e89ed9d9e83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TDP</value>
+         <variableId>595c1892-b3f6-4e5c-ab9b-eb17a938e70f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDC</value>
+         <variableId>e45a7393-302e-42a7-a30b-88208bc107a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Angsuran</value>
+         <variableId>9c348661-4527-4c11-b4de-663ba3f827e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pembayaran2</value>
+         <variableId>3cc2b42e-a626-4449-8cba-39a93e121e97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pembayaran3</value>
+         <variableId>40a74ddc-7038-4aca-a62e-672b174cea34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pembayaran4</value>
+         <variableId>9cddd847-5030-4c86-ad8e-4f7864b6ebae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pembayaran5</value>
+         <variableId>3e25a651-daaf-4de7-953d-8b3697abaf1d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

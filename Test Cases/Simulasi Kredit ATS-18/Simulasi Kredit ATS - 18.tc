@@ -122,7 +122,35 @@
       <description></description>
       <id>1df864da-da77-4df6-929d-76f463c99f83</id>
       <masked>false</masked>
-      <name>Pembayaran</name>
+      <name>Pembayaran1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3cc2b42e-a626-4449-8cba-39a93e121e97</id>
+      <masked>false</masked>
+      <name>Pembayaran2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40a74ddc-7038-4aca-a62e-672b174cea34</id>
+      <masked>false</masked>
+      <name>Pembayaran3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9cddd847-5030-4c86-ad8e-4f7864b6ebae</id>
+      <masked>false</masked>
+      <name>Pembayaran4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e25a651-daaf-4de7-953d-8b3697abaf1d</id>
+      <masked>false</masked>
+      <name>Pembayaran5</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -158,5 +186,33 @@
       <id>a4e58a05-a711-490f-939e-90df652ad182</id>
       <masked>false</masked>
       <name>AdaFoto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8db027bd-fed5-47fa-bede-0e89ed9d9e83</id>
+      <masked>false</masked>
+      <name>PaketOnOff</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>595c1892-b3f6-4e5c-ab9b-eb17a938e70f</id>
+      <masked>false</masked>
+      <name>TDP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e45a7393-302e-42a7-a30b-88208bc107a9</id>
+      <masked>false</masked>
+      <name>PDC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c348661-4527-4c11-b4de-663ba3f827e1</id>
+      <masked>false</masked>
+      <name>Angsuran</name>
    </variable>
 </TestCaseEntity>

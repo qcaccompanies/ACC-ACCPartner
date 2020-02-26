@@ -15,44 +15,81 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Nama_Sesuai_KTP'), NamaKTP, 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0'), NamaKTP, 0)
 
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/On_No.Hp'), 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0 (1)'), NoHP, 0)
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/On_No.Hp'), NoHP, 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Image0 - acc_partner_theme.CameraAdd'), 
+    0)
 
-if (AdaFoto == 'Ada') {
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Ktp'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Camera'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Galleri_BTN'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - acc_partner_theme.photocamera'), 0)
 
-    Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Konfirmasi'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/SelectFoto', [('text') : Picture]), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ajukan Pembiayaan'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/NPWP'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Info Pengajuan'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Galleri_BTN'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Asuransi'), 0)
 
-    Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Asuransi'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/SelectFoto', [('text') : Picture]), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Data Debitur'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/KartuKeluarga'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Data Debitur'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Galleri_BTN'), 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0 (2)'), 'tidak ada ', 0)
 
-    Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ya Informasi Sudah Benar'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/SelectFoto', [('text') : Picture]), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Selesai'), 0)
 
-    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/SetNama'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Ajukan_Pembiayaan_BTN'), 0)
+not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/SetNama'), NamaKTP, 0)
+
+not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/SetNoHP'), 0)
+
+not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/SetNoHP'), NoHP, 0)
+
+not_run: if (AdaFoto == 'Ada') {
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Add_KTP'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Upload_By_Camera'), 0)
+
+    not_run: Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Capture_Kamera'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Konfirmasi'), 0)
+
+    Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Verify_Upload_Done_KTP'), 0)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Add_NPWP'), 0)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Galleri_BTN'), 0)
+
+    not_run: Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/SelectFoto', [('text') : Picture]), 0)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Add_KK'), 0)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Galleri_BTN'), 0)
+
+    not_run: Mobile.scrollToText(Picture, FailureHandling.STOP_ON_FAILURE)
+
+    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/SelectFoto', [('text') : Picture]), 0)
+
+    not_run: Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Ajukan_pembiayaan'), 0)
 
     if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Alert_No_Hp_Harus_Diisi'), 0, 
         FailureHandling.OPTIONAL)) {
-        Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Ajukan_Pembiayaan_BTN'), 0, FailureHandling.STOP_ON_FAILURE)
+        Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Btn_Ajukan_pembiayaan'), 0, FailureHandling.STOP_ON_FAILURE)
     } else {
         Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Ringkasan_Pengajuan/Drop_Down_Ringkasan_Asuransi'), 0)
 
@@ -71,5 +108,7 @@ if (AdaFoto == 'Ada') {
 
     Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Ringkasan_Pengajuan/Alert_KTP_Harus_Diupload'), 
         0)
+
+    Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 }
 

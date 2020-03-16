@@ -20,7 +20,7 @@
          <id>becdff01-9c16-43ad-a285-173f36477199</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
       </testDataLink>
@@ -89,30 +89,6 @@
          <type>DATA_COLUMN</type>
          <value>Picture</value>
          <variableId>ffcd920c-702d-44ce-880e-68967b36f8e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Tahun2</value>
-         <variableId>3ec8aae1-c4be-4d82-90b8-ee1d68d31af6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Tahun3</value>
-         <variableId>cd22b6f1-2915-47ba-9f8e-c87480917dca</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Tahun4</value>
-         <variableId>48f477a8-bec3-437f-857f-fb42afb11dd2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Tahun5</value>
-         <variableId>04d065f2-b8d6-4d4e-8a2d-db4ce1cecc95</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
@@ -203,6 +179,18 @@
          <type>DATA_COLUMN</type>
          <value>Pembayaran5</value>
          <variableId>3e25a651-daaf-4de7-953d-8b3697abaf1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PembayaranAngsuran</value>
+         <variableId>6b8a8580-5630-444c-bafc-9c51e36e1c31</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProtectionType</value>
+         <variableId>4bdfd893-2177-4ac7-82d5-ba636a402caa</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

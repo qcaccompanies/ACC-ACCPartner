@@ -15,18 +15,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(0)
+
 Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0'), NamaKTP, 0)
 
 Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0 (1)'), NoHP, 0)
 
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Image0 - acc_partner_theme.CameraAdd'), 
-    0)
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Add_KTP_ByCamera'), 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Camera'), 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - acc_partner_theme.photocamera'), 0)
 
+WebUI.delay(3)
+
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Konfirmasi'), 0)
+
+not_run: WebUI.delay(8)
+
+not_run: WebUI.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Notify_Berhasill_Upload_KTP'))
+
+WebUI.delay(3)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ajukan Pembiayaan'), 0)
 
@@ -40,9 +51,11 @@ Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.Vi
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Data Debitur'), 0)
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0 (2)'), 'tidak ada ', 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Ringkasan_Pengajuan/set_text_pengajuan'), 'testing apps', 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ya Informasi Sudah Benar'), 0)
+
+WebUI.delay(10)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Selesai'), 0)
 

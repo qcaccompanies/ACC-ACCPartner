@@ -92,34 +92,6 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3ec8aae1-c4be-4d82-90b8-ee1d68d31af6</id>
-      <masked>false</masked>
-      <name>Tahun2</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>cd22b6f1-2915-47ba-9f8e-c87480917dca</id>
-      <masked>false</masked>
-      <name>Tahun3</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>48f477a8-bec3-437f-857f-fb42afb11dd2</id>
-      <masked>false</masked>
-      <name>Tahun4</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>04d065f2-b8d6-4d4e-8a2d-db4ce1cecc95</id>
-      <masked>false</masked>
-      <name>Tahun5</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>1df864da-da77-4df6-929d-76f463c99f83</id>
       <masked>false</masked>
       <name>Pembayaran1</name>
@@ -214,5 +186,19 @@
       <id>9c348661-4527-4c11-b4de-663ba3f827e1</id>
       <masked>false</masked>
       <name>Angsuran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b8a8580-5630-444c-bafc-9c51e36e1c31</id>
+      <masked>false</masked>
+      <name>PembayaranAngsuran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bdfd893-2177-4ac7-82d5-ba636a402caa</id>
+      <masked>false</masked>
+      <name>ProtectionType</name>
    </variable>
 </TestCaseEntity>

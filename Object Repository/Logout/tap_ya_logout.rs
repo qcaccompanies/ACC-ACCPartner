@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_yes_logout</name>
+   <name>tap_ya_logout</name>
    <tag></tag>
-   <elementGuidId>a4445dbe-a01c-41c9-97a7-b485b44a4e6f</elementGuidId>
+   <elementGuidId>827ad8e5-194b-4acf-b8b8-1a93aee0a102</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

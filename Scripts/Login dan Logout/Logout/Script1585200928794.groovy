@@ -15,26 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : expected_login
-        , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password
+        , ('expected_login') : '', ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
 
 if (expected_login == 'passed') {
-    Mobile.verifyElementVisible(findTestObject('Login/warn_login_success'), 0)
+    Mobile.tap(findTestObject('Logout/tap_akun_new'), 0)
 
-    Mobile.tap(findTestObject('Logout/tap_akun'), 0)
-
-    Mobile.tap(findTestObject('Logout/tap_logout'), 0)
+    Mobile.tap(findTestObject('Logout/tap_keluar_new'), 0)
 
     if (expected_logout == 'passed') {
-        Mobile.verifyElementVisible(findTestObject('Logout/warn_pop_up_logout'), 0)
-
         if (status_logout == 'yes') {
-            Mobile.tap(findTestObject('Logout/button_no_logout'), 0)
+            Mobile.tap(findTestObject('Logout/tap_ya_logout'), 0)
         } else if (status_logout == 'no') {
-            Mobile.tap(findTestObject('Logout/button_yes_logout'), 0)
+            Mobile.tap(findTestObject('Logout/tap_tidak_logout'), 0)
         }
-    } else {
-        Mobile.verifyElementNotExist(findTestObject('Logout/warn_pop_up_logout'), 0)
     }
 }
 

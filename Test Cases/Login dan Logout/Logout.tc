@@ -4,39 +4,39 @@
    <name>Logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3c010a6b-cd7f-40ae-8ea8-c19700ecc13c</testCaseGuid>
+   <testCaseGuid>5cdfdb9d-470d-4a80-bede-a0cc37f8fb16</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7ec7381-0a2d-4df1-88f3-33d2ce862fe7</id>
+      <id>d1426998-4ac8-4616-8a0a-b97a5f2754b4</id>
       <masked>false</masked>
       <name>expected_logout</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1e48ec67-eaee-4354-9314-ffd797d8e5ef</id>
+      <id>777662b1-a5e9-467d-b308-701b01c585b1</id>
       <masked>false</masked>
       <name>status_logout</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'passed'</defaultValue>
       <description></description>
-      <id>8a421f37-afeb-4d4e-99a1-19b06066f3c9</id>
+      <id>c17ec9a3-2d6b-45a4-bc4d-c712e5bf453e</id>
       <masked>false</masked>
       <name>expected_login</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SalesCiputat1'</defaultValue>
       <description></description>
-      <id>95b1d7e1-5558-416a-9cdd-f215541b199f</id>
+      <id>6ec70425-5e6c-43ab-9c17-3e4b73df00f5</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Password1'</defaultValue>
       <description></description>
-      <id>f95f02d8-68f6-48f3-b5c1-0d0f5cfab662</id>
+      <id>fb390871-90dc-4c63-a481-2045394dcef0</id>
       <masked>false</masked>
       <name>var_password</name>
    </variable>

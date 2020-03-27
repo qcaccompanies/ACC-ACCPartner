@@ -30,8 +30,6 @@ Mobile.setText(findTestObject('Login/input_password'), var_password, 0)
 Mobile.tap(findTestObject('Login/button_masuk'), 0)
 
 if (expected_login == 'passed') {
-    Mobile.verifyElementVisible(findTestObject('Login/warn_login_success'), 0, FailureHandling.OPTIONAL)
-
     if (press_back_button == 'yes') {
         Mobile.pressBack()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tap_dis_to_en_info_kenaikan_grade</name>
+   <name>ya_apaaja</name>
    <tag></tag>
-   <elementGuidId>894c8aef-e425-4f7e-9bdf-880a41fa38e7</elementGuidId>
+   <elementGuidId>dc6901ae-2e5b-471a-a8f3-d1ea82ba01c9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b3-l1-0-b1-l1-0-OFF_onclick</value>
+      <value>b3-l1-0-b1-l1-0-ON_onclick</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,21 +102,21 @@
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>560</value>
+      <value>602</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>302</value>
+      <value>297</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>43</value>
+      <value>42</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

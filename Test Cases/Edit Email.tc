@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>expected</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9f28bd6-2a46-484d-a653-757041e98922</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
 </TestCaseEntity>

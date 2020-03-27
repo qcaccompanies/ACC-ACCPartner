@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Edit Nomor Handphone</name>
+   <name>Edit No.Hp</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -41,6 +41,12 @@
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>7f149ab3-36c0-4518-b444-54ac558f24cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8e92b11b-960a-4105-9893-f294dff8305e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
+         <variableId>54c3247f-b29b-49ca-9e63-770edc8fd3ef</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

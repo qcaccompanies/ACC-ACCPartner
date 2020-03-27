@@ -20,7 +20,7 @@
          <id>f0538762-95ba-411e-b77b-08850130e3b1</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Edit Email dan Nomor Handphone</testDataId>
       </testDataLink>
@@ -41,6 +41,12 @@
          <type>DATA_COLUMN</type>
          <value>expected</value>
          <variableId>59432484-8fe4-4b78-b7b6-9d4904f0b6a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9f28bd6-2a46-484d-a653-757041e98922</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

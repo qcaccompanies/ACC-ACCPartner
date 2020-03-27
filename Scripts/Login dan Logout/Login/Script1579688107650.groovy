@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(10)
+
 Mobile.tap(findTestObject('Login/tap_username'), 0)
 
 Mobile.setText(findTestObject('Login/input_username'), var_username, 0)

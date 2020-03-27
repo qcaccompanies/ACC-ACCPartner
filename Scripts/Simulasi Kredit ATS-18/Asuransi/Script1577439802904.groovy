@@ -118,8 +118,6 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.swipe(900, 1880, 900, 1100)
 
-WebUI.delay(3)
-
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Masukkan_Data_Debitur'), 0)
 
 WebUI.delay(3)

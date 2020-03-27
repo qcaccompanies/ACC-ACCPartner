@@ -18,14 +18,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>&lt;p>Deskripsi faq&lt;/p></value>
+      <value>&lt;p>FAQ AKUN SATU&lt;/p></value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>b3-l1-41-DetailFAQList</value>
+      <value>b3-l1-86-DetailFAQList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,14 +116,14 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>783</value>
+      <value>705</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>315</value>
+      <value>363</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

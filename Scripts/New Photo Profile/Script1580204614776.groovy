@@ -15,50 +15,48 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : username, ('var_password') : katasandi, ('expected_login') : expected
-        , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : username, ('var_password') : katasandi
+        , ('expected_login') : expected, ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.startApplication('G:\\accpartner.apk', false)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
+Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
-
-WebUI.delay(5)
-
-Mobile.tap(findTestObject('New Photo Profile/ChangePhoto (1)'), 0)
-
-Mobile.tap(findTestObject('New Photo Profile/Select Cameraa'), 0)
+Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/Take Photo Btn'), 0)
+Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (1)'), 0)
 
-Mobile.tap(findTestObject('New Photo Profile/notify Coba Ulang OK'), 1)
+Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Cameraa'), 0)
+
+WebUI.delay(5)
+
+Mobile.tap(findTestObject('New Photo Profile/New Photo - btn_Take_Picture'), 0)
+
+Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Oke'), 1)
 
 not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 1)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/ChangePhoto (2)'), 0)
+Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (2)'), 0)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/Select Galery'), 0)
+Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Galery'), 0)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/namaFoto', [('text') : namafoto]), 0)
+Mobile.tap(findTestObject('New Photo Profile/New Photo - Galery - Select Photo'), 0)
 
 not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 0)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
-Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
-
-Mobile.tap(findTestObject('ViewProfileObject/btnKeluar'), 0)
-
-Mobile.tap(findTestObject('ViewProfileObject/btnYa Keluar'), 0)
+Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
 
 Mobile.closeApplication()
 

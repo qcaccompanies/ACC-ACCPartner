@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('G:\\accpartner.apk', false)
 
-Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
+Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
+Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
 if (expected == 'Passed') {
     not_run: Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Status - Terverifikasi'), 0)
@@ -34,18 +34,18 @@ if (expected == 'Passed') {
 
     WebUI.delay(5)
 
-    Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
+    Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
 
-    Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
+    Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
     Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Status - Reverify'), 0)
 
-    Mobile.tap(findTestObject('ViewProfileObject/Back to Profile'), 0)
+    Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
 }
 
-Mobile.tap(findTestObject('ViewProfileObject/btnKeluar'), 0)
+Mobile.tap(findTestObject('View Profile/btnKeluar'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/btnYa Keluar'), 0)
+Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
 
 if (expected == 'Passed') {
     Mobile.tap(findTestObject('Login/tap_username'), 0)
@@ -59,9 +59,9 @@ if (expected == 'Passed') {
     Mobile.tap(findTestObject('Login/button_masuk'), 0)
 }
 
-Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
+Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
-Mobile.tap(findTestObject('ViewProfileObject/ViewProfile'), 0)
+Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
 WebUI.delay(5)
 

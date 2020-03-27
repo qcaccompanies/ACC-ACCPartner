@@ -17,49 +17,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('G:\\accpartner.apk', false)
 
-Mobile.tap(findTestObject('ViewProfileObject/HomeBtnProfile'), 0)
+Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
 Mobile.tap(findTestObject('Syarat dan Ketentuan/Profile - Syarat dan Ketentuan'), 0)
 
 if (expectedLogin == 'Passed') {
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Syarat Ketentuan'), 0)
+    Mobile.tap(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 1'), 0)
 
-    not_run: Mobile.swipe(100, 300, 100, 1070)
+    Mobile.verifyElementVisible(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 1 - isi'), 0)
 
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Syarat Ketentuan'), 0)
+    Mobile.tap(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 2'), 0)
 
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Hak Cipta dan Merek Dagang'), 0)
+    Mobile.verifyElementVisible(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 2 - isi'), 0)
 
-    Mobile.verifyElementVisible(findTestObject('Syarat dan Ketentuan/Desc Hak Cipta'), 0)
+    Mobile.tap(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 3'), 0)
 
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Hak Cipta dan Merek Dagang'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Tentang Aplikasi'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Tentang Aplikasi'), 0)
-
-    not_run: CustomKeywords.'mobile.ScrollUpDown.UpDown'(100, 0, 100, 10)
-
-    not_run: Mobile.swipe(100, 300, 100, 800)
-
-    not_run: Mobile.verifyElementVisible(findTestObject('Syarat dan Ketentuan/Desc Tentang Aplikasi'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Penggunaan Aplikasi'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Penggunaan Aplikasi'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Penggunaan Aplikasi Lain'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Penggunaan Aplikasi Lain'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Cidera Janji'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Cidera Janji'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Pembatasan Tanggung Jawab'), 0)
-
-    Mobile.tap(findTestObject('Syarat dan Ketentuan/SK - Pembatasan Tanggung Jawab'), 0)
+    Mobile.verifyElementVisible(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 3 - isi'), 0)
 }
+
+Mobile.setText(findTestObject('Syarat dan Ketentuan/Search Box Syarat Ketentuan'), search1, 0)
+
+Mobile.clearText(findTestObject('Syarat dan Ketentuan/Search Box Syarat Ketentuan'), 0)
+
+Mobile.setText(findTestObject('Syarat dan Ketentuan/Search Box Syarat Ketentuan'), search2, 0)
+
+Mobile.tap(findTestObject('Pusat Bantuan/back To Profille'), 0)
 
 Mobile.closeApplication()
 

@@ -6,10 +6,24 @@
    <comment></comment>
    <testCaseGuid>156ebd01-8397-4fe3-bdf2-c29c40f3a7ab</testCaseGuid>
    <variable>
-      <defaultValue>'Passed'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a03fcf0f-f57d-41cd-a5c9-3f1ee6856499</id>
       <masked>false</masked>
       <name>expectedLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1597999d-6c86-45e3-8c8a-a9fd1f29548c</id>
+      <masked>false</masked>
+      <name>search1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a923175e-de2a-4ba7-8b9d-dc8563f6b12d</id>
+      <masked>false</masked>
+      <name>search2</name>
    </variable>
 </TestCaseEntity>

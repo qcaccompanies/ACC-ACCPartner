@@ -43,9 +43,9 @@
          <variableId>59432484-8fe4-4b78-b7b6-9d4904f0b6a8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>f0538762-95ba-411e-b77b-08850130e3b1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
          <variableId>d9f28bd6-2a46-484d-a653-757041e98922</variableId>
       </variableLink>
    </testCaseLink>

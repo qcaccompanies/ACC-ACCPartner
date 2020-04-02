@@ -39,6 +39,26 @@ if (status == 'Terverifikasi') {
     Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
     Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
+
+    Mobile.tap(findTestObject('View Profile/btnKeluar'), 0)
+
+    Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
+
+    Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+    Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+
+    Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+    Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+
+    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+
+    Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
+
+    Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
+
+    WebUI.delay(5)
 }
 
 if (status == 'Reverify') {
@@ -59,27 +79,43 @@ if (status == 'Reverify') {
     Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
     Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
+
+    Mobile.tap(findTestObject('View Profile/btnKeluar'), 0)
+
+    Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
+
+    Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+    Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+
+    Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+    Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+
+    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+
+    Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
+
+    Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
+
+    WebUI.delay(5)
 }
 
-Mobile.tap(findTestObject('View Profile/btnKeluar'), 0)
+if (status == 'Belum Terverifikasi') {
+    Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Profile Status - Belum Terverifikasi'), 0)
 
-Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
+    Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Edit Email - Btn Tidak bisa Edit'), 0)
 
-Mobile.tap(findTestObject('Login/tap_username'), 0)
+    Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
 
-Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+    Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
-Mobile.tap(findTestObject('Login/tap_password'), 0)
+    Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Profile Status - Belum Terverifikasi'), 0)
 
-Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+    Mobile.verifyElementVisible(findTestObject('Edit No.hp dan Email/Edit Email - Btn Tidak bisa Edit'), 0)
 
-Mobile.tap(findTestObject('Login/button_masuk'), 0)
-
-Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
-
-Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
-
-WebUI.delay(5)
+    Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
+}
 
 Mobile.closeApplication()
 

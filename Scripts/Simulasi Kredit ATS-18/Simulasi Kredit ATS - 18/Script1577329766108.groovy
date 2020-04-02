@@ -16,7 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.startApplication('G:\\accpartner (1).apk', false)
 
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
@@ -24,14 +26,6 @@ if (PaketOnOff == 'On') {
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah_Simulasi'), 0)
 
     Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/PaketOn'), 0)
-
-    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Cabang_ACC'), 0)
-
-    not_run: Mobile.clearText(findTestObject('Simulasi Kredit ATS - 18/Cabang_ACC'), 0)
-
-    not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Cabang_ACC'), Cabang, 0)
-
-    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Select', [('text') : Cabang]), 0)
 
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Paket_Simulasi'), 0)
 
@@ -176,24 +170,14 @@ if (PaketOnOff == 'On') {
 
     not_run: Mobile.swipe(85, 900, 320, 900)
 
-    if (Periode == '12') {
+    if (Periode == '24') {
         Mobile.swipe(85, 900, 320, 900)
-    } else if (Periode == '24') {
-        Mobile.swipe(85, 900, 320, 900)
-
-        WebUI.delay(2)
-
-        Mobile.swipe(320, 900, 660, 900)
     } else if (Periode == '36') {
         Mobile.swipe(85, 900, 320, 900)
 
         WebUI.delay(2)
 
         Mobile.swipe(320, 900, 660, 900)
-
-        WebUI.delay(2)
-
-        Mobile.swipe(660, 900, 800, 900)
     } else if (Periode == '48') {
         Mobile.swipe(85, 900, 320, 900)
 
@@ -204,6 +188,18 @@ if (PaketOnOff == 'On') {
         WebUI.delay(2)
 
         Mobile.swipe(660, 900, 800, 900)
+    } else if (Periode == '60') {
+        Mobile.swipe(85, 900, 320, 900)
+
+        WebUI.delay(2)
+
+        Mobile.swipe(320, 900, 660, 900)
+
+        WebUI.delay(2)
+
+        Mobile.swipe(600, 900, 800, 900)
+
+        WebUI.delay(2)
 
         Mobile.swipe(800, 900, 990, 900)
     }
@@ -226,5 +222,5 @@ Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi_Pilih Asuransi'), 0
 WebUI.callTestCase(findTestCase('Simulasi Kredit ATS-18/Asuransi'), [('Pembayaran1') : Pembayaran1, ('Pembayaran2') : Pembayaran2
         , ('Pembayaran3') : Pembayaran3, ('Pembayaran4') : Pembayaran4, ('Pembayaran5') : Pembayaran5, ('CreditProtection') : CreditProtection
         , ('NamaKTP') : NamaKTP, ('NoHP') : NoHP, ('Picture') : Picture, ('Plat') : Plat, ('PembayaranAngsuran') : PembayaranAngsuran
-        , ('ProtectionType') : ProtectionType], FailureHandling.STOP_ON_FAILURE)
+        , ('ProtectionType') : ProtectionType, ('Periode') : Periode], FailureHandling.STOP_ON_FAILURE)
 

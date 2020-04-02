@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f5ecf911-2ab4-4381-b576-17fa5b876e3f</testSuiteGuid>
    <testCaseLink>
-      <guid>65b9f823-7563-4771-8bad-3873ff3f65ad</guid>
+      <guid>89074e43-1752-4531-8407-7818bf4631d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login dan Logout/Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>cf85827c-ec33-4764-8d69-2b0ea5273a22</id>
+         <id>01f3c362-81d6-4d5b-b60e-a572d1dea9ae</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,34 +25,34 @@
          <testDataId>Data Files/data_binding_logout</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>cf85827c-ec33-4764-8d69-2b0ea5273a22</testDataLinkId>
+         <testDataLinkId>01f3c362-81d6-4d5b-b60e-a572d1dea9ae</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expected_logout</value>
-         <variableId>d1426998-4ac8-4616-8a0a-b97a5f2754b4</variableId>
+         <variableId>9633c87b-6671-437a-956e-4f634130e645</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>cf85827c-ec33-4764-8d69-2b0ea5273a22</testDataLinkId>
+         <testDataLinkId>01f3c362-81d6-4d5b-b60e-a572d1dea9ae</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>status_logout</value>
-         <variableId>777662b1-a5e9-467d-b308-701b01c585b1</variableId>
+         <variableId>2c37d31d-8e26-4ce2-aa90-0ca1f0728092</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c17ec9a3-2d6b-45a4-bc4d-c712e5bf453e</variableId>
+         <variableId>5415b178-10e1-4cba-9587-a836333f7536</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6ec70425-5e6c-43ab-9c17-3e4b73df00f5</variableId>
+         <variableId>a8982e97-2e56-4765-96c3-c4c1f6f8888d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fb390871-90dc-4c63-a481-2045394dcef0</variableId>
+         <variableId>b283952e-b8e3-44e8-972e-1ab6a9c3772a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

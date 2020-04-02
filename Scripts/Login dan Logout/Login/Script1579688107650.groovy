@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+Mobile.waitForElementPresent(findTestObject('Login/tap_username'), 5)
 
 Mobile.tap(findTestObject('Login/tap_username'), 0)
 
@@ -30,15 +30,17 @@ Mobile.setText(findTestObject('Login/input_password'), var_password, 0)
 Mobile.tap(findTestObject('Login/button_masuk'), 0)
 
 if (expected_login == 'passed') {
+    Mobile.verifyElementVisible(findTestObject('Login/warn - Hi after login'), 0)
+
     if (press_back_button == 'yes') {
         Mobile.pressBack()
 
-        if (close_app == 'yes') {
-            Mobile.tap(findTestObject('Login/button_close_yes'), 0)
+        Mobile.waitForElementPresent(findTestObject('Login/tap - Ya'), 0)
 
-            Mobile.closeApplication()
+        if (close_app == 'yes') {
+            Mobile.tap(findTestObject('Login/tap - Ya'), 0)
         } else if (close_app == 'no') {
-            Mobile.tap(findTestObject('Login/button_close_no'), 0)
+            Mobile.tap(findTestObject('Login/tap - Tidak'), 0)
         }
     }
 } else if (expected_login == 'failed') {

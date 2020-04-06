@@ -27,21 +27,11 @@ Mobile.tap(findTestObject('Daftar/tap_email'), 0)
 
 Mobile.setText(findTestObject('Daftar/input_email'), var_email, 0)
 
-Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
+Mobile.tap(findTestObject('Daftar/tap - No. Handphone'), 0)
 
-Mobile.setText(findTestObject('Daftar/input_phone_number'), var_phone_number, 0)
+Mobile.setText(findTestObject('Daftar/input_no_hp'), var_phone_number, 0)
 
-Mobile.tap(findTestObject('Daftar/tap_email'), 0)
-
-Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Daftar/tap_phone_number'), 0)
-
-Mobile.tapAtPosition(562, 179)
-
-Mobile.tap(findTestObject('Daftar/tap_jabatan'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Daftar/tap_dropdown_jabatan'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.OPTIONAL)
 
@@ -71,45 +61,53 @@ switch (expected_register_status) {
         
         break
     case 'failed':
-        Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
         if (keterangan == 'empty_field') {
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Nama harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Nama harus diisi'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username harus diisi'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Email harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Email harus diisi'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi harus diisi'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - No.Handphone Harus Diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - No.Handphone Harus Diisi'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Jabatan harus diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Jabatan harus diisi'), 2, FailureHandling.OPTIONAL)
         } else if (keterangan == 'error_length') {
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Nama harus diantara 3 sampai 30'), 
-                0, FailureHandling.OPTIONAL)
+                2, FailureHandling.OPTIONAL)
 
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Username harus diantara 6 sampai 20'), 
-                0, FailureHandling.OPTIONAL)
+                2, FailureHandling.OPTIONAL)
 
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Email harus diantara 13 sampai 50'), 
-                0, FailureHandling.OPTIONAL)
+                2, FailureHandling.OPTIONAL)
 
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter No.Handphone harus diantara 10 sampai 15'), 
-                0, FailureHandling.OPTIONAL)
+                2, FailureHandling.OPTIONAL)
 
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Panjang karakter Password harus diantara 7 sampai 20'), 
-                0, FailureHandling.OPTIONAL)
+                2, FailureHandling.OPTIONAL)
         } else if (keterangan == 'invalid_format') {
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Username tidak sesuai'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Username tidak sesuai'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Email tidak Valid'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Email tidak Valid'), 2, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Password tidak sesuai'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/warn - Format Password tidak sesuai'), 2, FailureHandling.OPTIONAL)
         } else if (keterangan == 'password_is_not_match') {
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi tidak sesuai'), 0, FailureHandling.STOP_ON_FAILURE)
-        } else if (keterangan == 'username_is_exist') {
+        }
+        
+        Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+        if (keterangan == 'username_is_exist') {
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username sudah digunakan'), 0, FailureHandling.STOP_ON_FAILURE)
+        }
+        
+        if ((var_jabatan == 'KACAB') || (var_jabatan == 'ADMIN HEAD')) {
+            Mobile.verifyElementNotVisible(findTestObject('Daftar/check_page_dealer_info'), 0)
+        } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
+            Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/check_page_verifikasi'), 0)
         }
         
         break

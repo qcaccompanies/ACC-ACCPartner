@@ -15,47 +15,55 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: Mobile.tap(findTestObject('Daftar/btn_dealer_info_new'), 0, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Daftar/tap_jalan_new'), 0)
 
-Mobile.clearText(findTestObject('Daftar/input_jalan_new'), 0)
+Mobile.clearText(findTestObject('Daftar/new/input_jalan_new_2'), 0)
 
-Mobile.setText(findTestObject('Daftar/input_jalan_new'), var_jalan, 0)
+Mobile.setText(findTestObject('Daftar/new/input_jalan_new_3'), var_jalan, 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Daftar/tap_kode_pos_new'), 0)
 
-Mobile.clearText(findTestObject('Daftar/input_kode_pos_new'), 0)
+Mobile.clearText(findTestObject('Daftar/new/input_kode_pos_new_2'), 0)
 
-Mobile.setText(findTestObject('Daftar/input_kode_pos_new'), var_kode_pos, 0)
+Mobile.setText(findTestObject('Daftar/new/input_kode_pos_new_3'), var_kode_pos, 0)
 
 Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap_input_kode_pos_fix', [('text') : var_input_kode_pos]), 0, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Daftar/tap_kelurahan_new'), 0)
 
-Mobile.clearText(findTestObject('Daftar/input_kelurahan_new'), 0)
+Mobile.clearText(findTestObject('Daftar/new/input_kelurahan_new_3'), 0)
 
-Mobile.setText(findTestObject('Daftar/input_kelurahan_new'), var_kelurahan, 0)
+Mobile.setText(findTestObject('Daftar/new/input_kelurahan_new_3'), var_kelurahan, 0)
 
 Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap_input_kelurahan_fix', [('text') : var_kelurahan]), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/tap_kecamatan_new'), 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.clearText(findTestObject('Daftar/input_kecamatan_new'), 0)
+Mobile.tap(findTestObject('Daftar/new/tap_kecamatan_new_2'), 0)
 
-Mobile.setText(findTestObject('Daftar/input_kecamatan_new'), var_kecamatan, 0)
+Mobile.clearText(findTestObject('Daftar/new/input_kecamatan_new_3'), 0)
 
-Mobile.tap(findTestObject('Daftar/tap_kota_new'), 0)
+Mobile.setText(findTestObject('Daftar/new/input_kecamatan_new_3'), var_kecamatan, 0)
 
-Mobile.clearText(findTestObject('Daftar/input_kota_new'), 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Daftar/input_kota_new'), var_kota, 0)
+Mobile.tap(findTestObject('Daftar/new/tap_kota_2'), 0)
 
-Mobile.tap(findTestObject('Daftar/tap_provinsi_new'), 0)
+Mobile.clearText(findTestObject('Daftar/new/input_kota_new_3'), 0)
 
-Mobile.clearText(findTestObject('Daftar/input_provinsi_new'), 0)
+Mobile.setText(findTestObject('Daftar/new/input_kota_new_3'), var_kota, 0)
 
-Mobile.setText(findTestObject('Daftar/input_provinsi_new'), var_provinsi, 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Daftar/new/tap_provinsi_2'), 0)
+
+Mobile.clearText(findTestObject('Daftar/new/input_provinsi_new_3'), 0)
+
+Mobile.setText(findTestObject('Daftar/new/input_provinsi_new_3'), var_provinsi, 0)
 
 Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap_input_provinsi_fix', [('text') : var_provinsi]), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -71,19 +79,19 @@ switch (expected_dealer_page) {
         break
     case 'failed':
         Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Panjang karakter Nama Jalan harus diantara 3 sampai 100'), 
-            0, FailureHandling.OPTIONAL)
+            3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Nama jalan harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Nama jalan harus diisi'), 3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kode Pos harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kode Pos harus diisi'), 3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kelurahan harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kelurahan harus diisi'), 3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kecamatan harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kecamatan harus diisi'), 3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kota harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kota harus diisi'), 3, FailureHandling.OPTIONAL)
 
-        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Provinsi harus diisi'), 0, FailureHandling.OPTIONAL)
+        Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Provinsi harus diisi'), 3, FailureHandling.OPTIONAL)
 
         break
 }

@@ -105,7 +105,7 @@ switch (expected_register_status) {
         }
         
         if ((var_jabatan == 'KACAB') || (var_jabatan == 'ADMIN HEAD')) {
-            Mobile.verifyElementNotVisible(findTestObject('Daftar/check_page_dealer_info'), 0)
+            Mobile.verifyElementNotExist(findTestObject('Daftar/new/check_dealer_info'), 0)
         } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
             Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/check_page_verifikasi'), 0)
         }

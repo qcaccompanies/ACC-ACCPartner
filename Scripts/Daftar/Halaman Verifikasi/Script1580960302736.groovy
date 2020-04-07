@@ -39,34 +39,40 @@ if (status_verifikasi == 'normal') {
 } else if (status_verifikasi == 'kirim_ulang') {
     switch (expected_verifikasi) {
         case 'passed':
-            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
-            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - 00 29'), 0)
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (13)'), 0, FailureHandling.OPTIONAL)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (23)'), 0, FailureHandling.OPTIONAL)
+
+            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (33)'), 0, FailureHandling.OPTIONAL)
+
+            Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - 00 29'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'failed':
-            Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - 00 29'), 0)
+            Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - 00 29'), 0, FailureHandling.OPTIONAL)
 
             break
     }
 } else if (status_verifikasi == '3_kali_kirim_ulang') {
     switch (expected_verifikasi) {
         case 'passed':
-            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
             Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (03)'), 0)
 
-            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
             Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (13)'), 0)
 
-            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
             Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (23)'), 0)
 
-            Mobile.delay(33, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
             Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap - Kirim ulang (33)'), 0)
 

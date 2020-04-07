@@ -39,7 +39,7 @@ not_run: WebUI.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Dat
 
 WebUI.delay(3)
 
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ajukan Pembiayaan'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Btn_Ajukan_Pembiayaan'), 0)
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Info Pengajuan'), 0)
 

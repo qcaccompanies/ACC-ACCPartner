@@ -18,7 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Verifikasi untuk Keamanan'), 0)
 
 if (status_verifikasi == 'normal') {
-    Mobile.delay(45, FailureHandling.STOP_ON_FAILURE)
+    Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_1'), var_otp_1, 0)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_2'), var_otp_2, 0)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_3'), var_otp_3, 0)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_4'), var_otp_4, 0)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_5'), var_otp_5, 0)
+
+    Mobile.setText(findTestObject('Daftar/new/input_otp_6'), var_otp_6, 0)
 
     Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/button_verifikasi'), 0)
 
@@ -30,9 +42,11 @@ if (status_verifikasi == 'normal') {
 
             break
         case 'failed':
-            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kode Verifikasi Anda salah'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Kode Verifikasi Anda salah'), 
+                0, FailureHandling.OPTIONAL)
 
-            Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/warn - Semua Field Harus Diisi'), 0, FailureHandling.OPTIONAL)
+            Mobile.verifyElementVisible(findTestObject('Daftar/a - VerifikasiDaftar/warn - Semua Field Harus Diisi'), 0, 
+                FailureHandling.OPTIONAL)
 
             break
     }

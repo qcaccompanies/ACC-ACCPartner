@@ -15,11 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password, ('expected_login') : ''
-        , ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password
+        , ('expected_login') : '', ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
 
 if (expected_login == 'passed') {
-    Mobile.tap(findTestObject('Change Password/tap_akun'), 0)
+    Mobile.tap(findTestObject('Logout/tap_akun_new'), 0)
 
     Mobile.tap(findTestObject('Change Password/tap_dealer_id'), 0)
 
@@ -40,7 +40,9 @@ if (expected_login == 'passed') {
     Mobile.tap(findTestObject('Change Password/button_confirm_change_password'), 0)
 
     if (expected_change_password == 'passed') {
-        Mobile.verifyElementVisible(findTestObject('Change Password/warn_change_password_success'), 0)
+        Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.verifyElementNotVisible(findTestObject('Change Password/button_confirm_change_password'), 0)
     } else if (expected_change_password == 'failed') {
         switch (true) {
             case 'EmptyField':

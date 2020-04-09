@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>b94c0952-36fb-4723-9397-52cc477a424f</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>3-4</value>
          </iterationEntity>
          <testDataId>Data Files/New_Foto</testDataId>
       </testDataLink>
@@ -47,6 +47,24 @@
          <type>DATA_COLUMN</type>
          <value>namafoto</value>
          <variableId>cb8deb6e-bb1b-4ee5-b4f8-8b7a30b674e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UploadBy</value>
+         <variableId>dc90b34f-a0ba-4893-a09a-2b8432d94767</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cancel</value>
+         <variableId>cc5ea90d-374d-4426-8e33-076839ad918b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b94c0952-36fb-4723-9397-52cc477a424f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ulangTake</value>
+         <variableId>fde12a19-c029-4838-90bb-20f542b52df9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

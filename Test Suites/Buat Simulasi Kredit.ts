@@ -20,7 +20,7 @@
          <id>becdff01-9c16-43ad-a285-173f36477199</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>11</value>
          </iterationEntity>
          <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
       </testDataLink>
@@ -87,12 +87,6 @@
       <variableLink>
          <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Picture</value>
-         <variableId>ffcd920c-702d-44ce-880e-68967b36f8e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
          <value>Pembayaran1</value>
          <variableId>1df864da-da77-4df6-929d-76f463c99f83</variableId>
       </variableLink>
@@ -119,12 +113,6 @@
          <type>DATA_COLUMN</type>
          <value>NoHP</value>
          <variableId>44efdcd7-95e6-4c2c-9bd4-a394669b49e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AdaFoto</value>
-         <variableId>a4e58a05-a711-490f-939e-90df652ad182</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
@@ -191,6 +179,18 @@
          <type>DATA_COLUMN</type>
          <value>ProtectionType</value>
          <variableId>4bdfd893-2177-4ac7-82d5-ba636a402caa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UploadBy</value>
+         <variableId>601d492c-15a3-4d38-9fde-eee258ed414f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4cfedfe-3c1a-4ee9-92a5-2612e8fb73be</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -33,4 +33,25 @@
       <masked>false</masked>
       <name>namafoto</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc90b34f-a0ba-4893-a09a-2b8432d94767</id>
+      <masked>false</masked>
+      <name>UploadBy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc5ea90d-374d-4426-8e33-076839ad918b</id>
+      <masked>false</masked>
+      <name>cancel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fde12a19-c029-4838-90bb-20f542b52df9</id>
+      <masked>false</masked>
+      <name>ulangTake</name>
+   </variable>
 </TestCaseEntity>

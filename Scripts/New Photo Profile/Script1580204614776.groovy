@@ -28,33 +28,63 @@ Mobile.tap(findTestObject('View Profile/ViewProfile'), 0)
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (1)'), 0)
+if (UploadBy == 'Camera') {
+    Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (1)'), 0)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Cameraa'), 0)
+    Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Cameraa'), 0)
 
-WebUI.delay(5)
+    WebUI.delay(5)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - btn_Take_Picture'), 0)
+    if (cancel == 'No') {
+        if (ulangTake == 'No') {
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - btn_Take_Picture'), 0)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Oke'), 1)
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Oke'), 1)
+        } else {
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - btn_Take_Picture'), 0)
 
-not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 1)
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Ulangi'), 1)
 
-WebUI.delay(5)
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - btn_Take_Picture'), 0)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (2)'), 0)
+            Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Oke'), 1)
+        }
+        
+        WebUI.delay(5)
 
-WebUI.delay(5)
+        not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 1)
+    } else {
+        Mobile.tap(findTestObject('New Photo Profile/New Photo - Take_Picture - Batal'), 1)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Galery'), 0)
+        WebUI.delay(5)
 
-WebUI.delay(5)
+        Mobile.tap(findTestObject('New Photo Profile/New Photo - Batal Select Camera or Gallery'), 1)
+    }
+} else {
+    Mobile.tap(findTestObject('New Photo Profile/New Photo - ChangePhoto (2)'), 0)
 
-Mobile.tap(findTestObject('New Photo Profile/New Photo - Galery - Select Photo'), 0)
+    WebUI.delay(5)
 
-not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 0)
+    Mobile.tap(findTestObject('New Photo Profile/New Photo - Select Galery'), 0)
 
-WebUI.delay(10)
+    WebUI.delay(5)
+
+    if (cancel == 'No') {
+        Mobile.scrollToText(namafoto, FailureHandling.STOP_ON_FAILURE)
+
+        Mobile.tap(findTestObject('New Photo Profile/New Photo - Gallery Select Photo'), 0)
+
+        not_run: Mobile.verifyElementVisible(findTestObject('New Photo Profile/Notify Photo Berhasil Upload'), 0)
+
+        WebUI.delay(10)
+    } else {
+        Mobile.pressBack()
+
+        WebUI.delay(5)
+
+        Mobile.tap(findTestObject('New Photo Profile/New Photo - Batal Select Camera or Gallery'), 1)
+    }
+}
 
 Mobile.tap(findTestObject('View Profile/Back to Profile'), 0)
 

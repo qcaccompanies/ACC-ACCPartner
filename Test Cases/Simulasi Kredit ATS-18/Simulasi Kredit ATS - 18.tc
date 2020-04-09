@@ -6,6 +6,13 @@
    <comment></comment>
    <testCaseGuid>f451548d-f37a-4a42-8ef3-f7fba2acacca</testCaseGuid>
    <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8db027bd-fed5-47fa-bede-0e89ed9d9e83</id>
+      <masked>false</masked>
+      <name>PaketOnOff</name>
+   </variable>
+   <variable>
       <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
       <description></description>
       <id>e7686b07-7511-4a9d-ba66-158a1fd3c897</id>
@@ -85,9 +92,30 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ffcd920c-702d-44ce-880e-68967b36f8e7</id>
+      <id>6b8a8580-5630-444c-bafc-9c51e36e1c31</id>
       <masked>false</masked>
-      <name>Picture</name>
+      <name>PembayaranAngsuran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>595c1892-b3f6-4e5c-ab9b-eb17a938e70f</id>
+      <masked>false</masked>
+      <name>TDP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c348661-4527-4c11-b4de-663ba3f827e1</id>
+      <masked>false</masked>
+      <name>Angsuran</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e45a7393-302e-42a7-a30b-88208bc107a9</id>
+      <masked>false</masked>
+      <name>PDC</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -127,6 +155,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>b311941a-65e6-4865-9361-81c8809c19c5</id>
+      <masked>false</masked>
+      <name>Plat</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>2706b1a4-787c-4f09-8b64-6771b6f60520</id>
       <masked>false</masked>
       <name>CreditProtection</name>
@@ -134,9 +169,9 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b311941a-65e6-4865-9361-81c8809c19c5</id>
+      <id>4bdfd893-2177-4ac7-82d5-ba636a402caa</id>
       <masked>false</masked>
-      <name>Plat</name>
+      <name>ProtectionType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -155,50 +190,15 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a4e58a05-a711-490f-939e-90df652ad182</id>
+      <id>601d492c-15a3-4d38-9fde-eee258ed414f</id>
       <masked>false</masked>
-      <name>AdaFoto</name>
+      <name>UploadBy</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8db027bd-fed5-47fa-bede-0e89ed9d9e83</id>
+      <id>f4cfedfe-3c1a-4ee9-92a5-2612e8fb73be</id>
       <masked>false</masked>
-      <name>PaketOnOff</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>595c1892-b3f6-4e5c-ab9b-eb17a938e70f</id>
-      <masked>false</masked>
-      <name>TDP</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e45a7393-302e-42a7-a30b-88208bc107a9</id>
-      <masked>false</masked>
-      <name>PDC</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>9c348661-4527-4c11-b4de-663ba3f827e1</id>
-      <masked>false</masked>
-      <name>Angsuran</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>6b8a8580-5630-444c-bafc-9c51e36e1c31</id>
-      <masked>false</masked>
-      <name>PembayaranAngsuran</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>4bdfd893-2177-4ac7-82d5-ba636a402caa</id>
-      <masked>false</masked>
-      <name>ProtectionType</name>
+      <name>FileName</name>
    </variable>
 </TestCaseEntity>

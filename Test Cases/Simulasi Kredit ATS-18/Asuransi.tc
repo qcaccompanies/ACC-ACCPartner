@@ -201,4 +201,18 @@
       <masked>false</masked>
       <name>PembayaranAngsuran</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3deecd09-0dbd-43b8-9658-f8d2ae47b7d1</id>
+      <masked>false</masked>
+      <name>UploadBy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e2d31f7-d560-4fae-ab35-cc093a030eb8</id>
+      <masked>false</masked>
+      <name>FileName</name>
+   </variable>
 </TestCaseEntity>

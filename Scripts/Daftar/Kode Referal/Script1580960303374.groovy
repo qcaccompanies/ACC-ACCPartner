@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('StartApplication_Uninstall_True'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.startApplication('C:\\Users\\asus\\Downloads\\accpartner (3).apk', false)
 
-Mobile.startApplication('C:\\Users\\asus\\Downloads\\accpartner (3).apk', false)
+WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Daftar/tap_daftar'), 0)
 

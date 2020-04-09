@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>633711ad-79ad-491a-a67a-2f892a55d648</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>11-21</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_forgot_password</testDataId>
       </testDataLink>

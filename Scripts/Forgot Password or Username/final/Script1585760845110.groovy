@@ -54,20 +54,20 @@ if (var_status_lupa == 'lupa_username') {
 
                     break
                 case 'failedWrongVerificationCode':
-                    Mobile.tap(findTestObject('forgot username/warn - Kode Verifikasi Anda salah'), 0)
+                    Mobile.tap(findTestObject('forgot username/warn - Kode Verifikasi Anda salah'), 0, FailureHandling.OPTIONAL)
 
                     break
             }
             
             break
         case 'failedEmptyField':
-            Mobile.tap(findTestObject('forgot username/warn - Email harus diisi'), 0)
+            Mobile.tap(findTestObject('forgot username/warn - Email harus diisi'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'failedWrongFormat':
-            Mobile.tap(findTestObject('forgot username/warn - Panjang karakter Email harus diantara 13 sampai 50'), 0)
+            Mobile.tap(findTestObject('forgot username/warn - Panjang karakter Email harus diantara 13 sampai 50'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.tap(findTestObject('forgot username/warn - Format Email tidak Valid'), 0)
+            Mobile.tap(findTestObject('forgot username/warn - Format Email tidak Valid'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'failedNotExist':
@@ -92,7 +92,7 @@ if (var_status_lupa == 'lupa_username') {
 
             break
         case 'failedEmptyField':
-            Mobile.verifyElementVisible(findTestObject('forgot username/warn - Username harus diisi'), 0)
+            Mobile.verifyElementVisible(findTestObject('forgot username/warn - Username harus diisi'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'failedNotExist':
@@ -152,7 +152,7 @@ if (var_status_lupa == 'lupa_username') {
 
             break
         case 'failedWrongVerificationCode':
-            Mobile.tap(findTestObject('forgot username/warn - Kode Verifikasi Anda salah'), 0)
+            Mobile.tap(findTestObject('forgot username/warn - Kode Verifikasi Anda salah'), 0, FailureHandling.OPTIONAL)
 
             break
     }

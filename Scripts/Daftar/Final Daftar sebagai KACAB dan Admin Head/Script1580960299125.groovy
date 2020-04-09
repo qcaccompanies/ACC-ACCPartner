@@ -21,19 +21,22 @@ WebUI.callTestCase(findTestCase('Daftar/Kode Referal'), [('var_referral') : var_
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 if (register_status == 'confirm') {
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Daftar/button_confirm'), 0)
+
     if (expected_referral == 'passed') {
-        Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.tap(findTestObject('Daftar/button_confirm'), 0)
-
         WebUI.callTestCase(findTestCase('Daftar/Halaman Daftar'), [('var_full_name') : var_full_name, ('var_username') : var_username
                 , ('var_email') : var_email, ('var_phone_number') : var_phone_number, ('var_jabatan') : var_jabatan, ('var_password') : var_password
                 , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status
-                , ('keterangan') : keterangan, ('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos, , ('var_input_kode_pos') : var_input_kode_pos,('var_kecamatan') : var_kecamatan
-                , ('var_kelurahan') : var_kelurahan, ('var_kota') : var_kota, ('var_provinsi') : var_provinsi, ('expected_dealer_page') : expected_dealer_page
-                , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], FailureHandling.STOP_ON_FAILURE)
+                , ('keterangan') : keterangan, ('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos, ('var_input_kode_pos') : var_input_kode_pos
+                , ('var_kecamatan') : var_kecamatan, ('var_kelurahan') : var_kelurahan, ('var_kota') : var_kota, ('var_provinsi') : var_provinsi
+                , ('expected_dealer_page') : expected_dealer_page, ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], 
+            FailureHandling.STOP_ON_FAILURE)
     } else if (expected_referral == 'failed') {
-        Mobile.verifyElementVisible(findTestObject('Daftar/warn - REFERAL CODE SALAH'), 0)
+        not_run: Mobile.verifyElementVisible(findTestObject('Daftar/warn - REFERAL CODE SALAH'), 0)
+
+        Mobile.verifyElementVisible(findTestObject('Daftar/button_confirm'), 0)
     }
 } else if (register_status == 'cancel') {
     Mobile.tap(findTestObject('Daftar/button_cancel'), 0)

@@ -36,5 +36,11 @@
          <value>search2</value>
          <variableId>d83a847b-f9b1-48d4-9bdd-b26dfc0543f6</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>20744889-36a8-40b4-b824-36968cfa277f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>search3</value>
+         <variableId>9ef6412c-ed3d-4212-91d7-75b02f85992f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

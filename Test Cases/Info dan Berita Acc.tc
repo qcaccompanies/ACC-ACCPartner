@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>search2</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9ef6412c-ed3d-4212-91d7-75b02f85992f</id>
+      <masked>false</masked>
+      <name>search3</name>
+   </variable>
 </TestCaseEntity>

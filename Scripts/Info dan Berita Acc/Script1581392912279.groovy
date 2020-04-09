@@ -21,7 +21,23 @@ Mobile.tap(findTestObject('Info dan Berita Acc/Lihat Semua'), 0)
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 1'), 0)
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 1'), 0)
+
+not_run: WebUI.delay(2)
+
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
+
+not_run: WebUI.delay(2)
+
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 2'), 0)
+
+not_run: WebUI.delay(2)
+
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
+
+not_run: WebUI.delay(2)
+
+Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 3'), 0)
 
 WebUI.delay(2)
 
@@ -29,25 +45,25 @@ Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 2'), 0)
+not_run: Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), search1, 0)
 
-WebUI.delay(2)
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 1'), 0)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
+not_run: WebUI.delay(2)
 
-WebUI.delay(2)
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
 
-Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), search1, 0)
+not_run: Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), search2, 0)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 1'), 0)
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 2'), 0)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
+not_run: Mobile.tap(findTestObject('Info dan Berita Acc/Btn Back Info dan Berita'), 0)
 
-Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), search2, 0)
+Mobile.setText(findTestObject('Info dan Berita Acc/Search Box info dan berita'), search3, 0)
 
-Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 2'), 0)
+Mobile.tap(findTestObject('Info dan Berita Acc/Info dan Berita Option 3'), 0)
 
 WebUI.delay(2)
 

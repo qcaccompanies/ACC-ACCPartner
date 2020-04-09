@@ -23,7 +23,7 @@ Mobile.startApplication('G:\\accpartner (1).apk', false)
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah_Simulasi'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah Simulasi'), 0)
 
     Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/PaketOn'), 0)
 
@@ -31,9 +31,9 @@ if (PaketOnOff == 'On') {
 
     Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Paket_Simulasi'), Paket, 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Brand_Simulasi'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Brand'), 0)
 
-    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Brand_Simulasi'), Brand, 0)
+    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Brand'), Brand, 0)
 
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Select', [('text') : Brand]), 0)
 
@@ -55,9 +55,9 @@ if (PaketOnOff == 'On') {
 
     WebUI.delay(3)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Tahun2019_ON'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Tahun2020_ON'), 0)
 
-    not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/OTR_Simulation'), OTR, 0)
+    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/OTR_Simulation'), OTR, 0)
 
     not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/DP_Percent_Simulation'), DP_PERSEN, 0)
 
@@ -71,24 +71,16 @@ if (PaketOnOff == 'On') {
 
     not_run: Mobile.swipe(100, 970, 300, 970)
 
-    not_run: if (Periode == '12') {
-        Mobile.swipe(90, 900, 300, 900)
-    } else if (Periode == '24') {
-        Mobile.swipe(90, 900, 320, 900)
+    Mobile.swipe(785, 1400, 785, 700)
 
-        WebUI.delay(2)
-
-        Mobile.swipe(320, 900, 660, 900)
+    if (Periode == '24') {
+        Mobile.swipe(75, 860, 300, 860)
     } else if (Periode == '36') {
-        Mobile.swipe(85, 900, 320, 900)
+        Mobile.swipe(75, 860, 300, 860)
 
         WebUI.delay(2)
 
-        Mobile.swipe(320, 900, 660, 900)
-
-        WebUI.delay(2)
-
-        Mobile.swipe(660, 900, 800, 900)
+        Mobile.swipe(300, 900, 540, 900)
     } else if (Periode == '48') {
         Mobile.swipe(85, 900, 320, 900)
 
@@ -99,26 +91,29 @@ if (PaketOnOff == 'On') {
         WebUI.delay(2)
 
         Mobile.swipe(660, 900, 800, 900)
+    } else if (Periode == '60') {
+        Mobile.swipe(85, 900, 320, 900)
+
+        WebUI.delay(2)
+
+        Mobile.swipe(320, 900, 660, 900)
+
+        WebUI.delay(2)
+
+        Mobile.swipe(600, 900, 800, 900)
+
+        WebUI.delay(2)
 
         Mobile.swipe(800, 900, 990, 900)
     }
     
-    not_run: if (Periode == '12') {
-        not_run: Mobile.swipe(85, 900, 320, 900)
-
-        Mobile.swipe(100, 970, 300, 970)
-    } else if (Periode == '24') {
-    } else if (Periode == '36') {
-    } else if (Periode == '48') {
-    }
-    
     if (PembayaranAngsuran == 'ADDM') {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/ADDM (1)'), 0)
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ ADDM'), 0)
     } else {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/ADDB (1)'), 0)
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ ADDB'), 0)
     }
 } else if (PaketOnOff == 'Off') {
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah_Simulasi'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah Simulasi'), 0)
 
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Paket_Kredit'), 0)
 
@@ -142,7 +137,7 @@ if (PaketOnOff == 'On') {
 
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Select', [('text') : Model]), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/android.view.View0 - Tahun'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_Tahun OFF'), 0)
 
     not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Set_TahunOFF'), 0)
 
@@ -152,7 +147,7 @@ if (PaketOnOff == 'On') {
 
     not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Option_2019 (2)'), 0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/android.view.View0 - 2019'), 0)
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_TahunOFF_2019'), 0)
 
     Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Set_OTR_OFF'), OTR, 0)
 
@@ -205,22 +200,22 @@ if (PaketOnOff == 'On') {
     }
     
     if (PembayaranAngsuran == 'ADDM') {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/ADDM (1)'), 0)
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ ADDM_OFF'), 0)
     } else {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/ADDB (1)'), 0)
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ ADDB_OFF'), 0)
     }
     
-    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/android.widget.EditText0 (1)'), TDP, 0)
+    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_TDP'), TDP, 0)
 
-    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/android.widget.EditText0 (2)'), Angsuran, 0)
+    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_Angsuran (1)'), Angsuran, 0)
 
-    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/android.widget.EditText0 (3)'), PDC, 0)
+    Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_PDC (1)'), PDC, 0)
 }
 
 Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi_Pilih Asuransi'), 0)
 
 WebUI.callTestCase(findTestCase('Simulasi Kredit ATS-18/Asuransi'), [('Pembayaran1') : Pembayaran1, ('Pembayaran2') : Pembayaran2
         , ('Pembayaran3') : Pembayaran3, ('Pembayaran4') : Pembayaran4, ('Pembayaran5') : Pembayaran5, ('CreditProtection') : CreditProtection
-        , ('NamaKTP') : NamaKTP, ('NoHP') : NoHP, ('Picture') : Picture, ('Plat') : Plat, ('PembayaranAngsuran') : PembayaranAngsuran
-        , ('ProtectionType') : ProtectionType, ('Periode') : Periode], FailureHandling.STOP_ON_FAILURE)
+        , ('NamaKTP') : NamaKTP, ('NoHP') : NoHP, ('Plat') : Plat, ('PembayaranAngsuran') : PembayaranAngsuran, ('ProtectionType') : ProtectionType
+        , ('Periode') : Periode, ('PaketOnOff') : PaketOnOff, ('UploadBy') : UploadBy, ('FileName') : FileName], FailureHandling.STOP_ON_FAILURE)
 

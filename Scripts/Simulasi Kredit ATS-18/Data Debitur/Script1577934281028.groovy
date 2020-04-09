@@ -14,50 +14,66 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(0)
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0'), NamaKTP, 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text Nama KTP'), NamaKTP, 0)
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.EditText0 (1)'), NoHP, 0)
-
-WebUI.delay(3)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Add_KTP_ByCamera'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Camera'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - acc_partner_theme.photocamera'), 0)
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text No.HP'), NoHP, 0)
 
 WebUI.delay(3)
 
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Konfirmasi'), 0)
+if (UploadBy == 'Camera') {
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Btn Add KTP'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Camera Upload'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Camera Shoot'), 0)
+
+    WebUI.delay(3)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Camera Konfirmasi'), 0)
+} else {
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Btn Add KTP'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Galery Upload'), 0)
+
+    not_run: Mobile.tapOnImage(FileName, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.scrollToText(FileName, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.doubleTap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Upload FileName'), 0)
+}
 
 not_run: WebUI.delay(8)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Notify_Berhasill_Upload_KTP'))
-
-WebUI.delay(3)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Btn_Ajukan_Pembiayaan'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Info Pengajuan'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Asuransi'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Asuransi'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Data Debitur'), 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.view.View0 - Data Debitur'), 0)
-
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Ringkasan_Pengajuan/set_text_pengajuan'), 'testing apps', 0)
-
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ya Informasi Sudah Benar'), 0)
+not_run: WebUI.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Notify Berhasil Upload KTP'))
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Selesai'), 0)
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/android.widget.Button0 - Ajukan Pembiayaan'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Info Asuransi'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Info Pengajuan'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Info Asuransi'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Info Data Debitur'), 0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Info Data Debitur'), 0)
+
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Ringkasan_Pengajuan/Ringkasan - Set Text Pengajuan'), 'testing apps', 
+    0)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Informasi Sudah Benar'), 0)
+
+WebUI.delay(10)
+
+Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Btn Selesai'), 0)
+
+WebUI.delay(10)
 
 not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/SetNama'), 0, FailureHandling.STOP_ON_FAILURE)
 

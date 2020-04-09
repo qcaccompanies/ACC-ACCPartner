@@ -13,7 +13,7 @@
       <name>Picture</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(20, 2)</defaultValue>
+      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(25, 2)</defaultValue>
       <description></description>
       <id>d906d922-53af-4945-8902-540721c0ab59</id>
       <masked>false</masked>
@@ -32,5 +32,19 @@
       <id>cab4415d-481a-4ce0-822b-e500532596ec</id>
       <masked>false</masked>
       <name>AdaFoto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b4e41c3d-9b42-4967-8f89-2dfd5baecb50</id>
+      <masked>false</masked>
+      <name>UploadBy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f5803d1-958b-412b-9a32-7266be3be106</id>
+      <masked>false</masked>
+      <name>FileName</name>
    </variable>
 </TestCaseEntity>

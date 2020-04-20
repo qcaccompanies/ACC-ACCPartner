@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(0)
+WebUI.delay(10)
 
 Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text Nama KTP'), NamaKTP, 0)
 

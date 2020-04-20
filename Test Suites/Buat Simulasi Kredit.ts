@@ -17,179 +17,179 @@
       <testCaseId>Test Cases/Simulasi Kredit ATS-18/Simulasi Kredit ATS - 18</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>becdff01-9c16-43ad-a285-173f36477199</id>
+         <id>96cf2997-ba83-4b99-ada4-98b86900e9fd</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>11</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>AreaPengajuan</value>
          <variableId>e7686b07-7511-4a9d-ba66-158a1fd3c897</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Cabang</value>
          <variableId>43ee5beb-2c62-40bb-8c21-53013d30d54a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Brand</value>
          <variableId>e7081c21-3aaf-4271-ae9f-26687ce2f6c5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Type</value>
          <variableId>b2bcc97b-21d1-43f6-84d7-34743107bf95</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Model</value>
          <variableId>01b3df1e-71ff-41b3-a2c4-621b5e0d6da1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Tahun</value>
          <variableId>35991cd3-40ce-479e-8cd5-276699345265</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>OTR</value>
          <variableId>466f6efe-892e-465c-990d-1d38f38a4f77</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>DP_PERSEN</value>
          <variableId>96dd2ee5-3974-4134-bda1-95f1e5e93519</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>DP_UANG</value>
          <variableId>193456ee-9f51-4eac-8c3b-c908751e8ebe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Periode</value>
          <variableId>cece91b0-5de1-441b-bacc-dd4bdd3fda0b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pembayaran1</value>
          <variableId>1df864da-da77-4df6-929d-76f463c99f83</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CreditProtection</value>
          <variableId>2706b1a4-787c-4f09-8b64-6771b6f60520</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Plat</value>
          <variableId>b311941a-65e6-4865-9361-81c8809c19c5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NamaKTP</value>
          <variableId>d906d922-53af-4945-8902-540721c0ab59</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NoHP</value>
          <variableId>44efdcd7-95e6-4c2c-9bd4-a394669b49e7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Paket</value>
          <variableId>a5a5ba49-a951-45d0-b568-c41464774ea0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>PaketOnOff</value>
          <variableId>8db027bd-fed5-47fa-bede-0e89ed9d9e83</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TDP</value>
          <variableId>595c1892-b3f6-4e5c-ab9b-eb17a938e70f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>PDC</value>
          <variableId>e45a7393-302e-42a7-a30b-88208bc107a9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Angsuran</value>
          <variableId>9c348661-4527-4c11-b4de-663ba3f827e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pembayaran2</value>
          <variableId>3cc2b42e-a626-4449-8cba-39a93e121e97</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pembayaran3</value>
          <variableId>40a74ddc-7038-4aca-a62e-672b174cea34</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pembayaran4</value>
          <variableId>9cddd847-5030-4c86-ad8e-4f7864b6ebae</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pembayaran5</value>
          <variableId>3e25a651-daaf-4de7-953d-8b3697abaf1d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>PembayaranAngsuran</value>
          <variableId>6b8a8580-5630-444c-bafc-9c51e36e1c31</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ProtectionType</value>
          <variableId>4bdfd893-2177-4ac7-82d5-ba636a402caa</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>becdff01-9c16-43ad-a285-173f36477199</testDataLinkId>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UploadBy</value>
          <variableId>601d492c-15a3-4d38-9fde-eee258ed414f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>96cf2997-ba83-4b99-ada4-98b86900e9fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FileName</value>
          <variableId>f4cfedfe-3c1a-4ee9-92a5-2612e8fb73be</variableId>
       </variableLink>
    </testCaseLink>

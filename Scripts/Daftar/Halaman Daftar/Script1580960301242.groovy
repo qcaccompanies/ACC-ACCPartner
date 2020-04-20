@@ -31,9 +31,19 @@ Mobile.tap(findTestObject('Daftar/tap - No. Handphone'), 0)
 
 Mobile.setText(findTestObject('Daftar/input_no_hp'), var_phone_number, 0)
 
-Mobile.tap(findTestObject('Daftar/tap_dropdown_jabatan'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('Daftar/new/tap_dropdown_new'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+if (var_jabatan == 'KACAB') {
+    Mobile.tap(findTestObject('Daftar/new/tap - KACAB'), 0, FailureHandling.STOP_ON_FAILURE)
+} else if (true) {
+    Mobile.tap(findTestObject('Daftar/new/tap - ADMIN HEAD'), 0, FailureHandling.STOP_ON_FAILURE)
+}
+
+not_run: Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Daftar/tap_password'), 0)
 
@@ -51,12 +61,15 @@ switch (expected_register_status) {
             WebUI.callTestCase(findTestCase('Daftar/Halaman Dealer Info'), [('var_jalan') : var_jalan, ('var_kode_pos') : var_kode_pos
                     , ('var_input_kode_pos') : var_input_kode_pos, ('var_kecamatan') : var_kecamatan, ('var_kelurahan') : var_kelurahan
                     , ('var_kota') : var_kota, ('var_provinsi') : var_provinsi, ('expected_dealer_page') : expected_dealer_page
-                    , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], FailureHandling.STOP_ON_FAILURE)
+                    , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi, ('var_otp_1') : var_otp_1
+                    , ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4, ('var_otp_5') : var_otp_5
+                    , ('var_otp_6') : var_otp_6, ('var_jabatan') : var_jabatan], FailureHandling.STOP_ON_FAILURE)
         } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
             Mobile.tap(findTestObject('Daftar/button_daftar'), 0)
 
-            WebUI.callTestCase(findTestCase('Daftar/Halaman Verifikasi'), [('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi], 
-                FailureHandling.STOP_ON_FAILURE)
+            WebUI.callTestCase(findTestCase('Daftar/Halaman Verifikasi'), [('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi
+                    , ('var_otp_1') : var_otp_1, ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4
+                    , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6], FailureHandling.STOP_ON_FAILURE)
         }
         
         break

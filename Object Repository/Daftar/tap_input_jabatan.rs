@@ -10,11 +10,10 @@
          <value>//*[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

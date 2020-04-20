@@ -138,4 +138,46 @@
       <masked>false</masked>
       <name>expected_verifikasi</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5325eabe-c8a7-4b94-9bef-e58dc4819db5</id>
+      <masked>false</masked>
+      <name>var_otp_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>455d8bf7-a200-4067-92d9-d58fce891cd5</id>
+      <masked>false</masked>
+      <name>var_otp_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50fbb43c-9a55-479d-8de2-98752ec5e4aa</id>
+      <masked>false</masked>
+      <name>var_otp_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92041c26-dfbf-4ce2-85a0-657b24879a12</id>
+      <masked>false</masked>
+      <name>var_otp_4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>efff2ffa-5946-4cd2-9e30-b36f9c564e8b</id>
+      <masked>false</masked>
+      <name>var_otp_5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>340e4ac5-788c-49ca-be88-ebf73b5163ae</id>
+      <masked>false</masked>
+      <name>var_otp_6</name>
+   </variable>
 </TestCaseEntity>

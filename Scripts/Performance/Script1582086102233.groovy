@@ -23,67 +23,67 @@ Mobile.waitForElementPresent(findTestObject('Performance/tap_selengkapnya'), 5)
 
 Mobile.tap(findTestObject('Performance/tap_selengkapnya'), 0)
 
-Mobile.tap(findTestObject('Performance/dropdown_bulan_new'), 0)
+Mobile.tap(findTestObject('Performance/dropdown_bulan_new (1)'), 0)
 
 switch (var_bulan) {
     case 'Jan 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Jan 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Jan 2020'), 0)
 
         break
     case 'Feb 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Feb 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Feb 2020'), 0)
 
         break
     case 'Mar 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Mar 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Mar 2020'), 0)
 
         break
     case 'Apr 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Apr 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Apr 2020'), 0)
 
         break
     case 'Mei 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Mei 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Mei 2020'), 0)
 
         break
     case 'Jun 2020':
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Jun 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Jun 2020'), 0)
 
         break
     case 'Jul 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Jul 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Jul 2020'), 0)
 
         break
     case 'Ags 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Ags 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Ags 2020'), 0)
 
         break
     case 'Sep 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Sep 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Sep 2020'), 0)
 
         break
     case 'Okt 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Okt 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Okt 2020'), 0)
 
         break
     case 'Nov 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Nov 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Nov 2020'), 0)
 
         break
     case 'Des 2020':
         Mobile.swipe(635, 755, 635, 338)
 
-        Mobile.tap(findTestObject('Performance/android.view.View0 - Des 2020'), 0)
+        Mobile.tap(findTestObject('Performance/new/android.view.View0 - Des 2020'), 0)
 
         break
 }

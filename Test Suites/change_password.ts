@@ -20,7 +20,7 @@
          <id>bfc9bbcd-fb23-4753-9397-6d8935ac3293</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/data_binding_change_password</testDataId>
       </testDataLink>

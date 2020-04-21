@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>f0538762-95ba-411e-b77b-08850130e3b1</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Edit Email dan Nomor Handphone</testDataId>
       </testDataLink>

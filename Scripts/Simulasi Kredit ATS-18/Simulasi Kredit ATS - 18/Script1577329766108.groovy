@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startApplication('G:\\accpartner (1).apk', false)
+Mobile.startApplication('G:\\accpartner (2).apk', false)
 
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
@@ -148,6 +148,8 @@ if (PaketOnOff == 'On') {
     not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Option_2019 (2)'), 0)
 
     Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Simulasi/Simulasi _ Set_Text_TahunOFF_2019'), 0)
+
+    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Set_OTR_OFF'), 0)
 
     Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Set_OTR_OFF'), OTR, 0)
 

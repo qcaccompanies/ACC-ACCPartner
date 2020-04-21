@@ -31,7 +31,8 @@ if (register_status == 'confirm') {
                 , ('var_confirm_password') : var_confirm_password, ('expected_register_status') : expected_register_status
                 , ('keterangan') : keterangan, ('var_jalan') : '', ('var_kode_pos') : '', ('var_kecamatan') : '', ('var_kelurahan') : ''
                 , ('var_kota') : '', ('var_provinsi') : '', ('expected_dealer_page') : '', ('status_verifikasi') : status_verifikasi
-                , ('expected_verifikasi') : expected_verifikasi], FailureHandling.STOP_ON_FAILURE)
+                , ('expected_verifikasi') : expected_verifikasi, ('var_otp_1') : var_otp_1, ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4
+                , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6, ('dealer_info') : ''], FailureHandling.STOP_ON_FAILURE)
     } else if (expected_referral == 'failed') {
         Mobile.verifyElementVisible(findTestObject('Daftar/warn - REFERAL CODE SALAH'), 0)
     }

@@ -15,10 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-if (Mobile.verifyElementVisible(findTestObject('Daftar/tap_jalan_new'), 0, FailureHandling.OPTIONAL)) {
-    Mobile.tap(findTestObject('Daftar/tap_jalan_new'), 0)
+Mobile.tap(findTestObject('Daftar/tap_jalan_new'), 0)
 
-
+if (dealer_info == 'DSO Ciputat') {
     Mobile.clearText(findTestObject('Daftar/new/input_jalan_new_2'), 0)
 
     Mobile.setText(findTestObject('Daftar/new/input_jalan_new_3'), var_jalan, 0)
@@ -69,7 +68,7 @@ if (Mobile.verifyElementVisible(findTestObject('Daftar/tap_jalan_new'), 0, Failu
     Mobile.setText(findTestObject('Daftar/new/input_provinsi_new_3'), var_provinsi, 0)
 
     Mobile.tap(findTestObject('Daftar/a - VerifikasiDaftar/tap_input_provinsi_fix', [('text') : var_provinsi]), 0, FailureHandling.STOP_ON_FAILURE)
-} else if (Mobile.verifyElementNotVisible(findTestObject('Daftar/tap_jalan_new'), 0, FailureHandling.OPTIONAL)) {
+} else if (dealer_info == 'TSO Kelapa Gading') {
     Mobile.tap(findTestObject('Daftar/new/tap_input_jalan_new_admin_head'), 0)
 
     Mobile.clearText(findTestObject('Daftar/new/input_jalan_admin'), 0)
@@ -132,7 +131,8 @@ switch (expected_dealer_page) {
     case 'passed':
         WebUI.callTestCase(findTestCase('Daftar/Halaman Verifikasi'), [('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi
                 , ('var_otp_1') : var_otp_1, ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4
-                , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6], FailureHandling.STOP_ON_FAILURE)
+                , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6, ('var_username') : var_username, ('var_password') : var_password], 
+            FailureHandling.STOP_ON_FAILURE)
 
         break
     case 'failed':

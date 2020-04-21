@@ -36,9 +36,25 @@ if (status_verifikasi == 'normal') {
 
     switch (expected_verifikasi) {
         case 'passed':
-            Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+            Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
             Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/button_verifikasi'), 0)
+
+            Mobile.waitForElementPresent(findTestObject('Login/tap_username'), 5)
+
+            Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+            Mobile.setText(findTestObject('Login/input_username'), var_username, 0)
+
+            Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+            Mobile.setText(findTestObject('Login/input_password'), var_password, 0)
+
+            Mobile.tap(findTestObject('Login/button_masuk'), 0)
+
+            Mobile.verifyElementVisible(findTestObject('Login/warn - Hi after login'), 0)
+
+            Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
             break
         case 'failed':

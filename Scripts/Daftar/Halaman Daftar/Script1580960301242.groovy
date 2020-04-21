@@ -39,8 +39,12 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 if (var_jabatan == 'KACAB') {
     Mobile.tap(findTestObject('Daftar/new/tap - KACAB'), 0, FailureHandling.STOP_ON_FAILURE)
-} else if (true) {
+} else if (var_jabatan == 'ADMIN HEAD') {
     Mobile.tap(findTestObject('Daftar/new/tap - ADMIN HEAD'), 0, FailureHandling.STOP_ON_FAILURE)
+} else if (var_jabatan == 'SUPERVISOR') {
+    Mobile.tap(findTestObject('Daftar/new/tap - SUPERVISOR'), 0, FailureHandling.STOP_ON_FAILURE)
+} else if (var_jabatan == 'SALESMAN') {
+    Mobile.tap(findTestObject('Daftar/new/tap - SALESMAN'), 0, FailureHandling.STOP_ON_FAILURE)
 }
 
 not_run: Mobile.tap(findTestObject('Daftar/tap_input_jabatan', [('text') : var_jabatan]), 0, FailureHandling.STOP_ON_FAILURE)
@@ -63,13 +67,15 @@ switch (expected_register_status) {
                     , ('var_kota') : var_kota, ('var_provinsi') : var_provinsi, ('expected_dealer_page') : expected_dealer_page
                     , ('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi, ('var_otp_1') : var_otp_1
                     , ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4, ('var_otp_5') : var_otp_5
-                    , ('var_otp_6') : var_otp_6, ('var_jabatan') : var_jabatan], FailureHandling.STOP_ON_FAILURE)
+                    , ('var_otp_6') : var_otp_6, ('var_jabatan') : var_jabatan, ('var_username') : var_username, ('var_password') : var_password
+                    , ('dealer_info') : dealer_info], FailureHandling.STOP_ON_FAILURE)
         } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
             Mobile.tap(findTestObject('Daftar/button_daftar'), 0)
 
             WebUI.callTestCase(findTestCase('Daftar/Halaman Verifikasi'), [('status_verifikasi') : status_verifikasi, ('expected_verifikasi') : expected_verifikasi
                     , ('var_otp_1') : var_otp_1, ('var_otp_2') : var_otp_2, ('var_otp_3') : var_otp_3, ('var_otp_4') : var_otp_4
-                    , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6], FailureHandling.STOP_ON_FAILURE)
+                    , ('var_otp_5') : var_otp_5, ('var_otp_6') : var_otp_6, ('var_username') : var_username, ('var_password') : var_password], 
+                FailureHandling.STOP_ON_FAILURE)
         }
         
         break
@@ -111,7 +117,7 @@ switch (expected_register_status) {
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Kata Sandi tidak sesuai'), 0, FailureHandling.STOP_ON_FAILURE)
         }
         
-        Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+        Mobile.tap(findTestObject('Daftar/button_dealer_info'), 0, FailureHandling.OPTIONAL)
 
         if (keterangan == 'username_is_exist') {
             Mobile.verifyElementVisible(findTestObject('Daftar/warn - Username sudah digunakan'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -120,7 +126,7 @@ switch (expected_register_status) {
         if ((var_jabatan == 'KACAB') || (var_jabatan == 'ADMIN HEAD')) {
             Mobile.verifyElementNotExist(findTestObject('Daftar/new/check_dealer_info'), 0)
         } else if ((var_jabatan == 'SUPERVISOR') || (var_jabatan == 'SALESMAN')) {
-            Mobile.verifyElementNotVisible(findTestObject('Daftar/a - VerifikasiDaftar/check_page_verifikasi'), 0)
+            Mobile.verifyElementNotExist(findTestObject('Daftar/a - VerifikasiDaftar/check_page_verifikasi'), 0)
         }
         
         break

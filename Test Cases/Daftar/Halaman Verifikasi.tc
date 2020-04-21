@@ -61,4 +61,18 @@
       <masked>false</masked>
       <name>var_otp_6</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84624ecc-7e57-4243-a79e-09a87f401bce</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5ac42e4-e840-424b-8ae3-2dc5c0c5ef48</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
 </TestCaseEntity>

@@ -124,4 +124,25 @@
       <masked>false</masked>
       <name>var_jabatan</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4198c955-f58d-47bf-a608-c9a1a5c7f7b9</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a9721a7-1160-4bd8-8c02-34c8bc075e28</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>565102d2-b396-40a8-9fd5-c9f0073cf26f</id>
+      <masked>false</masked>
+      <name>dealer_info</name>
+   </variable>
 </TestCaseEntity>

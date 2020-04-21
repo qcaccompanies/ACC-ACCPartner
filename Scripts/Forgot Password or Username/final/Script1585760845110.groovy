@@ -21,7 +21,7 @@ Mobile.startApplication('C:\\Users\\asus\\Downloads\\accpartner (1).apk', false)
 
 Mobile.tap(findTestObject('forgot username/tap - Lupa Username Kata Sandi'), 0)
 
-Mobile.verifyElementVisible(findTestObject('forgot username/popup lupa username kata sandi'), 0)
+not_run: Mobile.verifyElementVisible(findTestObject('forgot username/popup lupa username kata sandi'), 0)
 
 if (var_status_lupa == 'lupa_username') {
     Mobile.tap(findTestObject('forgot username/tap btn - Lupa Username'), 0)
@@ -119,7 +119,25 @@ if (var_status_lupa == 'lupa_username') {
 
             switch (expected_output) {
                 case 'passed':
+                    Mobile.waitForElementPresent(findTestObject('Login/tap_username'), 5)
+
                     Mobile.verifyElementVisible(findTestObject('Login/tap_username'), 0)
+
+                    Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+                    Mobile.setText(findTestObject('Login/input_username'), var_username_lupa, 0)
+
+                    Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+                    Mobile.setText(findTestObject('Login/input_password'), var_new_password, 0)
+
+                    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+
+                    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+                    Mobile.verifyElementNotVisible(findTestObject('Login/button_masuk'), 0)
+
+                    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
                     break
                 case 'failedEmptyField':

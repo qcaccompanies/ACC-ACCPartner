@@ -42,7 +42,31 @@ if (expected_login == 'passed') {
     if (expected_change_password == 'passed') {
         Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.verifyElementNotVisible(findTestObject('Change Password/button_confirm_change_password'), 0)
+        Mobile.verifyElementNotVisible(findTestObject('Change Password/button_confirm_change_password'), 3)
+
+        Mobile.tap(findTestObject('Logout/tap_akun_new'), 0)
+
+        Mobile.tap(findTestObject('Logout/tap_keluar_new'), 0)
+
+        Mobile.tap(findTestObject('Logout/tap_ya_logout'), 0)
+
+        Mobile.waitForElementPresent(findTestObject('Login/tap_username'), 5)
+
+        Mobile.verifyElementVisible(findTestObject('Login/tap_username'), 0)
+
+        Mobile.tap(findTestObject('Login/tap_username'), 0)
+
+        Mobile.setText(findTestObject('Login/input_username'), var_username, 0)
+
+        Mobile.tap(findTestObject('Login/tap_password'), 0)
+
+        Mobile.setText(findTestObject('Login/input_password'), var_new_password, 0)
+
+        Mobile.tap(findTestObject('Login/button_masuk'), 0)
+
+        Mobile.verifyElementVisible(findTestObject('Login/warn - Hi after login'), 0)
+
+        Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
     } else if (expected_change_password == 'failed') {
         switch (true) {
             case 'EmptyField':

@@ -180,4 +180,11 @@
       <masked>false</masked>
       <name>var_otp_6</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0007ca6-10d4-4e31-9d66-d999537ec2a0</id>
+      <masked>false</masked>
+      <name>dealer_info</name>
+   </variable>
 </TestCaseEntity>

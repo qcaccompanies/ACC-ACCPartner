@@ -16,9 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startApplication('G:\\accpartner (2).apk', false)
+not_run: Mobile.startApplication('G:\\accpartner (2).apk', false)
 
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
@@ -71,7 +71,7 @@ if (PaketOnOff == 'On') {
 
     not_run: Mobile.swipe(100, 970, 300, 970)
 
-    Mobile.swipe(785, 1400, 785, 700)
+    Mobile.swipe(450, 1070, 450, 542)
 
     if (Periode == '24') {
         Mobile.swipe(75, 860, 300, 860)
@@ -153,7 +153,9 @@ if (PaketOnOff == 'On') {
 
     Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Set_OTR_OFF'), OTR, 0)
 
-    Mobile.swipe(785, 1400, 785, 700)
+    Mobile.swipe(450, 1070, 450, 542)
+
+    not_run: Mobile.swipe(785, 1400, 785, 700)
 
     not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Set_PersenOFF'), DP_PERSEN, 0)
 

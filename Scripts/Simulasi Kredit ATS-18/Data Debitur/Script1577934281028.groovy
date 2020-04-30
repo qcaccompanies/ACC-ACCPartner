@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(10)
 
-Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text Nama KTP'), NamaKTP, 0)
-
 Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text No.HP'), NoHP, 0)
+
+Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Data_Debitur/Data Debitur - Set Text Nama KTP'), NamaKTP, 0)
 
 WebUI.delay(3)
 

@@ -32,6 +32,8 @@ Mobile.tap(findTestObject('Login/button_masuk'), 0)
 if (expected_login == 'passed') {
     Mobile.verifyElementVisible(findTestObject('Login/warn - Hi after login'), 0)
 
+    Mobile.verifyElementVisible(findTestObject('Login/warn_username_doesnt_exist'), 0, FailureHandling.OPTIONAL)
+
     if (press_back_button == 'yes') {
         Mobile.pressBack()
 
@@ -46,47 +48,49 @@ if (expected_login == 'passed') {
 } else if (expected_login == 'failed') {
     switch (status_login) {
         case 'ErrorLengthPassword':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_password'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_password'), 2, FailureHandling.OPTIONAL)
 
             break
         case 'ErrorLengthUsername':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_username'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_username'), 2, FailureHandling.OPTIONAL)
 
             break
         case 'UsernameIsEmpty':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_username_is_empty'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_username_is_empty'), 2, FailureHandling.OPTIONAL)
 
             break
         case 'PasswordIsEmpty':
-            Mobile.checkElement(findTestObject('Login/warn_password_is_empty'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_password_is_empty'), 2, FailureHandling.OPTIONAL)
 
             break
         case 'UsernameDoesntExist':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_username_doesnt_exist'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_username_doesnt_exist'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'WrongPassword':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_wrong_username_or_password'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_wrong_username_or_password'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'ErrorLengthUsernamePassword':
-            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_username'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_username'), 0, FailureHandling.OPTIONAL)
 
-            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_password'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_error_length_password'), 0, FailureHandling.OPTIONAL)
 
             break
         case 'WrongPassword3Times':
             for (int i = 0; i < 2; i++) {
-                Mobile.clearText(findTestObject('Login/input_password'), 0)
+                Mobile.clearText(findTestObject('Login/input_password'), 2, FailureHandling.OPTIONAL)
 
-                Mobile.setText(findTestObject('Login/input_password'), var_password, 0)
+                Mobile.setText(findTestObject('Login/input_password'), var_password, 2, FailureHandling.OPTIONAL)
 
-                Mobile.tap(findTestObject('Login/button_masuk'), 0)
+                Mobile.tap(findTestObject('Login/button_masuk'), 2, FailureHandling.OPTIONAL)
             }
             
-            Mobile.verifyElementVisible(findTestObject('Login/warn_wrong_pass_3_times'), 0)
+            Mobile.verifyElementVisible(findTestObject('Login/warn_wrong_pass_3_times'), 2, FailureHandling.OPTIONAL)
 
             break
     }
+    
+    Mobile.verifyElementVisible(findTestObject('Login/button_masuk'), 0, FailureHandling.STOP_ON_FAILURE)
 }
 

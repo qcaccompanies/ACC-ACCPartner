@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>ecadc295-ecf1-4cd1-8245-c8d21e05294d</dataFileGUID>
-   <dataSourceUrl>G:\magangg\ACC-ACCPartner\Buat Simulasi.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\asus\git\update27maret\Buat Simulasi.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

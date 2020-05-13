@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>logout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f5ecf911-2ab4-4381-b576-17fa5b876e3f</testSuiteGuid>
+   <testCaseLink>
+      <guid>89074e43-1752-4531-8407-7818bf4631d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Alda/Login dan Logout/Logout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>630345dd-4129-4605-85f3-dfab19abf61f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alda/data_binding_logout</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>630345dd-4129-4605-85f3-dfab19abf61f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_logout</value>
+         <variableId>9633c87b-6671-437a-956e-4f634130e645</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>630345dd-4129-4605-85f3-dfab19abf61f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status_logout</value>
+         <variableId>2c37d31d-8e26-4ce2-aa90-0ca1f0728092</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5415b178-10e1-4cba-9587-a836333f7536</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8982e97-2e56-4765-96c3-c4c1f6f8888d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b283952e-b8e3-44e8-972e-1ab6a9c3772a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

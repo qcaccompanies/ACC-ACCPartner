@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Performance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2da80a0a-49fd-455a-a257-2c57642e2026</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4dac4e6d-1f1c-4afa-a214-ffbef2667da2</id>
+      <masked>false</masked>
+      <name>var_bulan</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifikasi otp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7851ceb-5e00-451a-973e-7510a0995b11</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f50f72e6-964d-4dcf-826b-0c78a0dab1b3</id>
+      <masked>false</masked>
+      <name>var_opsi_otp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5a0e883-5c0d-4ea3-9449-135b9c0d896a</id>
+      <masked>false</masked>
+      <name>var_otp1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77c399c8-90af-4f3f-ae3d-0143b4dd0932</id>
+      <masked>false</masked>
+      <name>var_otp2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df7ffae5-37b7-46b0-b0c4-9d7b590896aa</id>
+      <masked>false</masked>
+      <name>var_otp3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dae47118-2f08-456b-8547-cfebb81fa505</id>
+      <masked>false</masked>
+      <name>var_otp4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9c74b90-f300-4f95-b331-3aa91debe470</id>
+      <masked>false</masked>
+      <name>var_otp5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f04d4c8b-0b0e-40b4-913a-ab960d828de5</id>
+      <masked>false</masked>
+      <name>var_otp6</name>
+   </variable>
+</TestCaseEntity>

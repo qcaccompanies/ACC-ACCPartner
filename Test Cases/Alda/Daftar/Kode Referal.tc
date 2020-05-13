@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kode Referal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e383027c-c773-4121-8375-a5aca76a9a0d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29abe5a6-3d56-47ca-abb0-a790f760d4db</id>
+      <masked>false</masked>
+      <name>var_referral</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba73afca-5a47-4185-bb7e-cd99bc4db509</id>
+      <masked>false</masked>
+      <name>dealer_info</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>notifikasi</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6003ba37-c758-4b39-840e-bbc90fb2642f</testSuiteGuid>
+   <testCaseLink>
+      <guid>04c3f1c8-b227-4641-b9e1-db537f2070b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Alda/Akun Saya/Final Notifikasi</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alda/data_binding_notifikasi</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee1a8538-3b25-4ecb-8248-70ea4dad7a17</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>821552b6-9639-4b51-b376-2c3987ea1286</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20924934-3403-451c-beba-5c94f63f1af9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fdf98ed-4086-49c3-ae24-7c32e13ff51a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a277403-1f39-4e45-a96e-7dfd5d09edb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84a11b80-aed2-4fc4-a0ae-8f175c25bdeb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

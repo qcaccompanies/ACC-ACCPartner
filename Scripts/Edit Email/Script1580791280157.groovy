@@ -44,15 +44,15 @@ if (status == 'Terverifikasi') {
 
     Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
 
-    Mobile.tap(findTestObject('Login/tap_username'), 0)
+    Mobile.tap(findTestObject('Alda/Login/tap_username'), 0)
 
-    Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_username'), 'SalesCiputat1', 0)
 
-    Mobile.tap(findTestObject('Login/tap_password'), 0)
+    Mobile.tap(findTestObject('Alda/Login/tap_password'), 0)
 
-    Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_password'), 'Password1', 0)
 
-    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+    Mobile.tap(findTestObject('Alda/Login/button_masuk'), 0)
 
     Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
@@ -84,15 +84,15 @@ if (status == 'Reverify') {
 
     Mobile.tap(findTestObject('View Profile/btnYa Keluar'), 0)
 
-    Mobile.tap(findTestObject('Login/tap_username'), 0)
+    Mobile.tap(findTestObject('Alda/Login/tap_username'), 0)
 
-    Mobile.setText(findTestObject('Login/input_username'), 'SalesCiputat1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_username'), 'SalesCiputat1', 0)
 
-    Mobile.tap(findTestObject('Login/tap_password'), 0)
+    Mobile.tap(findTestObject('Alda/Login/tap_password'), 0)
 
-    Mobile.setText(findTestObject('Login/input_password'), 'Password1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_password'), 'Password1', 0)
 
-    Mobile.tap(findTestObject('Login/button_masuk'), 0)
+    Mobile.tap(findTestObject('Alda/Login/button_masuk'), 0)
 
     Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 

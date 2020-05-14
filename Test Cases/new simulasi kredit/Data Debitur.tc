@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Data Debitur</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5658af9-51c0-4db4-8b22-2c399a963da5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1875943b-c789-428a-ac2b-1e79f126f982</id>
+      <masked>false</masked>
+      <name>Picture</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(25, 2)</defaultValue>
+      <description></description>
+      <id>ac424071-6b30-4dcd-bb14-b646b3dd54b1</id>
+      <masked>false</masked>
+      <name>NamaKTP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(26, 2)</defaultValue>
+      <description></description>
+      <id>e1982341-e68e-4233-87e1-5b0c91db9c5c</id>
+      <masked>false</masked>
+      <name>NoHP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a26d159f-91e5-4918-b414-f3fb9dcca45e</id>
+      <masked>false</masked>
+      <name>AdaFoto</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(27, 2)</defaultValue>
+      <description></description>
+      <id>502b37cf-7836-4b0b-8379-15019ca785e4</id>
+      <masked>false</masked>
+      <name>UploadBy</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64a277dd-5e3b-48fd-8c79-67015025dd63</id>
+      <masked>false</masked>
+      <name>FileName</name>
+   </variable>
+</TestCaseEntity>

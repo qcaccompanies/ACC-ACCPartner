@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Daftar - KACAB dan ADMIN</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ebfc28f4-ae55-4cfe-b2c2-c0317db4bf5c</dataFileGUID>
+   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\ACCPartner\Data Binding_Rizka.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Daftar - KACAB dan ADMIN HEAD</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

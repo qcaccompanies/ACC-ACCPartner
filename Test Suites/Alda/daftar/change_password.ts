@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>2093aa4e-5bd6-4c46-adcc-aaeb74459b2c</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
          </iterationEntity>
          <testDataId>Data Files/Alda/data_binding_change_password</testDataId>
       </testDataLink>

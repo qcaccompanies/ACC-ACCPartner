@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', false)
 
 Mobile.waitForElementPresent(findTestObject('Alda/Logout/tap_akun_new'), 10)
 

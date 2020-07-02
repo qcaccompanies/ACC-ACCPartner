@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change no hp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e92bd19-1d24-4b5b-9254-d537c2c499b5</testCaseGuid>
+   <variable>
+      <defaultValue>'08123546489'</defaultValue>
+      <description></description>
+      <id>0951e529-1f3d-484a-9aab-77ca8e5673c8</id>
+      <masked>false</masked>
+      <name>NoHp_Lama</name>
+   </variable>
+   <variable>
+      <defaultValue>'08123456789'</defaultValue>
+      <description></description>
+      <id>c99fd691-7c25-4400-8674-79d7e25ff743</id>
+      <masked>false</masked>
+      <name>NoHp_Baru</name>
+   </variable>
+   <variable>
+      <defaultValue>'fail'</defaultValue>
+      <description></description>
+      <id>515539b0-74d8-4fa1-91dd-71e2cd1de4f6</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'nomor lama salah'</defaultValue>
+      <description></description>
+      <id>981d9a70-fe15-4a73-80af-6905c9a44a8c</id>
+      <masked>false</masked>
+      <name>error</name>
+   </variable>
+</TestCaseEntity>

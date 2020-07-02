@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>f67708b9-a5f9-430f-bed5-197a821c0b57</dataFileGUID>
-   <dataSourceUrl>G:\magangg\PusatBantuan.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\ACC-ACCPartner\PusatBantuan.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

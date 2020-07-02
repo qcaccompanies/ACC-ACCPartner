@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>afd94a6a-03b9-417f-971d-65a419e08177</dataFileGUID>
-   <dataSourceUrl>C:\Users\asus\git\update 11 mei\data_binding.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\ACC-ACCPartner\data_binding.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Notifikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73236d86-1d7e-4024-83f3-ada7c69fe938</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fca1b0f-9d32-4a51-9947-dd0032476f36</id>
+      <masked>false</masked>
+      <name>var_verifikasi_akun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e3705d3-16dd-4136-8a98-61c84e010638</id>
+      <masked>false</masked>
+      <name>var_perubahan_data</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05ebb170-402e-46ea-a223-57e9d314edb4</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

@@ -25,39 +25,39 @@
          <testDataId>Data Files/Alda/data_binding_notifikasi</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_apa_aja</value>
          <variableId>ee1a8538-3b25-4ecb-8248-70ea4dad7a17</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_pstmn</value>
          <variableId>821552b6-9639-4b51-b376-2c3987ea1286</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_verifikasi_akun</value>
          <variableId>20924934-3403-451c-beba-5c94f63f1af9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_perubahan_data</value>
          <variableId>7fdf98ed-4086-49c3-ae24-7c32e13ff51a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_lebay</value>
          <variableId>4a277403-1f39-4e45-a96e-7dfd5d09edb0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4bdc61da-e89d-4968-b1ac-6624e9f7d3a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_update</value>
          <variableId>84a11b80-aed2-4fc4-a0ae-8f175c25bdeb</variableId>
       </variableLink>
    </testCaseLink>

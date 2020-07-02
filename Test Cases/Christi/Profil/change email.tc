@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63c4fc6f-6c5b-4713-b009-5f42eb99ece8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>785728cc-b4c1-466f-ae13-d4b639e42be1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46899b4c-a8c8-4e54-9aa4-489346c4bbf7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45c99056-e90a-49ac-bbb7-8b139f132dc0</id>
+      <masked>false</masked>
+      <name>status_akun</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5db5adf3-3620-4a7a-87ca-7e33e1f73bd9</id>
+      <masked>false</masked>
+      <name>Email_Baru</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65e90c43-c862-4b36-b491-065cea86f91c</id>
+      <masked>false</masked>
+      <name>Email_Lama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62e0600d-95bc-4112-b248-6cac3a3cb698</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aef0a9e1-11b6-47ff-a00e-69ace6291429</id>
+      <masked>false</masked>
+      <name>status_fail</name>
+   </variable>
+</TestCaseEntity>

@@ -29,7 +29,7 @@ Mobile.setText(findTestObject('Alda/Login/input_password'), var_password, 0)
 
 Mobile.tap(findTestObject('Alda/Login/button_masuk'), 0)
 
-if (expected_login == 'passed') {
+not_run: if (expected_login == 'passed') {
     Mobile.verifyElementVisible(findTestObject('Alda/Login/warn - Hi after login'), 0)
 
     if (press_back_button == 'yes') {
@@ -91,4 +91,18 @@ if (expected_login == 'passed') {
     
     Mobile.verifyElementVisible(findTestObject('Alda/Login/button_masuk'), 0, FailureHandling.STOP_ON_FAILURE)
 }
+
+Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', true)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.setText(findTestObject('null'), 'Mutiper123', 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.setText(findTestObject('null'), 'qwerty123', 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.closeApplication()
 

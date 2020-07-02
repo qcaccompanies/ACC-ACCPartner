@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('G:\\accpartner.apk', false)
+Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', false)
 
 Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
 
@@ -46,7 +46,7 @@ if (status == 'Reverify') {
 
     Mobile.tap(findTestObject('Alda/Login/tap_username'), 0)
 
-    Mobile.setText(findTestObject('Alda/Login/input_username'), 'SalesCiputat1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_username'), 'Samsatu1', 0)
 
     Mobile.tap(findTestObject('Alda/Login/tap_password'), 0)
 
@@ -88,7 +88,7 @@ if (status == 'Terverifikasi') {
 
     Mobile.tap(findTestObject('Alda/Login/tap_username'), 0)
 
-    Mobile.setText(findTestObject('Alda/Login/input_username'), 'SalesCiputat1', 0)
+    Mobile.setText(findTestObject('Alda/Login/input_username'), 'Samsatu1', 0)
 
     Mobile.tap(findTestObject('Alda/Login/tap_password'), 0)
 

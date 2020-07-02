@@ -15,11 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('G:\\accpartner.apk', false)
+Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', false)
 
-Mobile.tap(findTestObject('View Profile/HomeBtnProfile'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Syarat dan Ketentuan/Profile - Syarat dan Ketentuan'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 if (expectedLogin == 'Passed') {
     Mobile.tap(findTestObject('Syarat dan Ketentuan/Syarat Ketentuan 1'), 0)

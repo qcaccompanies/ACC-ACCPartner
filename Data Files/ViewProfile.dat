@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>83f5eae0-f09e-4fe0-b8a0-0f5bd5e1d48c</dataFileGUID>
-   <dataSourceUrl>G:\expectedViewProfile,login.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\ACC-ACCPartner\expectedViewProfile,login.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

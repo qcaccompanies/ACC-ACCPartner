@@ -15,13 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Alda/Login dan Logout/Login'), [('var_username') : var_username, ('var_password') : var_password
-        , ('expected_login') : '', ('status_login') : '', ('press_back_button') : '', ('close_app') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', false)
 
 if (expected_login == 'passed') {
     Mobile.tap(findTestObject('Alda/Logout/tap_akun_new'), 0)
 
-    Mobile.tap(findTestObject('Alda/Change Password/tap_dealer_id'), 0)
+    Mobile.tap(findTestObject('null'), 0)
 
     Mobile.tap(findTestObject('Alda/Change Password/button_change_password'), 0)
 
@@ -68,7 +67,7 @@ if (expected_login == 'passed') {
 
         Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
     } else if (expected_change_password == 'failed') {
-        switch (true) {
+        switch (status_failed.toString()) {
             case 'EmptyField':
                 Mobile.verifyElementVisible(findTestObject('Alda/Change Password/warn_empty_password'), 2, FailureHandling.OPTIONAL)
 
@@ -82,8 +81,8 @@ if (expected_login == 'passed') {
 
                 break
             case 'ConfirmNewPasswordIsNotMatch':
-                Mobile.verifyElementVisible(findTestObject('Alda/Change Password/warn_confirm_new_password_is_not_match'), 2, 
-                    FailureHandling.OPTIONAL)
+                Mobile.verifyElementVisible(findTestObject('Alda/Change Password/warn_confirm_new_password_is_not_match'), 
+                    2, FailureHandling.OPTIONAL)
 
                 break
             case 'ErrorLengthPassword':

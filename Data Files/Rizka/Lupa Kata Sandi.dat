@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>645bc2a8-0e2d-45bc-8085-8ae3dce9449d</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\ACCPartner\Data Binding_Rizka.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Lupa Password</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

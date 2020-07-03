@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login - Logout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3ccd7fc0-e0c7-49b0-b84b-bc27f1ffda0d</testSuiteGuid>
+   <testCaseLink>
+      <guid>9f0dfba5-1d7d-4911-8098-b12dfbcc1d4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rizka/Login - Logout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a3efb7d7-fe96-43be-83f5-88a3943b14a6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>9</value>
+         </iterationEntity>
+         <testDataId>Data Files/Rizka/Login - Logout</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a3efb7d7-fe96-43be-83f5-88a3943b14a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>1007facd-5464-4c79-a8e9-05d59e796083</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3efb7d7-fe96-43be-83f5-88a3943b14a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a1fa1f66-8439-4494-bd4d-7a4e735da39d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3efb7d7-fe96-43be-83f5-88a3943b14a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>condition</value>
+         <variableId>51c07401-ebce-4425-b2b7-2c0cdf6240d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3efb7d7-fe96-43be-83f5-88a3943b14a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>infoCondition</value>
+         <variableId>0a763257-9976-4578-b020-7b6ea6654e8f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3efb7d7-fe96-43be-83f5-88a3943b14a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>infoCase</value>
+         <variableId>63c9b95c-781e-4524-bf01-233ea3cb15ca</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

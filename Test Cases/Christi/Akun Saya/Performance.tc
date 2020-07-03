@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Performance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1110238-de41-4854-abd6-55176da839bb</testCaseGuid>
+   <variable>
+      <defaultValue>'Mei 2020'</defaultValue>
+      <description></description>
+      <id>1c6867a6-acbe-4de3-ae08-4c3db8c954d9</id>
+      <masked>false</masked>
+      <name>var_bulan</name>
+   </variable>
+</TestCaseEntity>

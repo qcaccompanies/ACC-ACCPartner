@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Info dan Berita ACC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50f9e8c9-f29a-4402-a002-bb636e68b9a6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca56642e-aeac-4dee-8a7b-642521379ebf</id>
+      <masked>false</masked>
+      <name>namaInfo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49ce331d-88c1-47ad-8ede-14c78ae474c3</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+</TestCaseEntity>

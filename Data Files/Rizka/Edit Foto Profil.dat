@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New_Foto</name>
+   <name>Edit Foto Profil</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>4e310651-486b-4cd3-8977-9d455c31607e</dataFileGUID>
-   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\ACCPartner\newFotoProfil.xlsx</dataSourceUrl>
+   <dataFileGUID>9ad45663-679e-4a0e-9519-2c24a1f8e0dd</dataFileGUID>
+   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\ACCPartner\Data Binding_Rizka.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Edit Foto Profil</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

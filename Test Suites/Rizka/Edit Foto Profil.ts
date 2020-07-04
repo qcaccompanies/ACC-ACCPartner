@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Edit Foto Profil</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1f3b7685-07fd-47d7-aed9-6d1c3fb13c30</testSuiteGuid>
+   <testCaseLink>
+      <guid>d0e9473f-3857-4762-bad8-cd91b1308532</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rizka/Edit Foto Profil</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8ef129b0-848d-48f6-87c7-5f6276e2cf99</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>4-5</value>
+         </iterationEntity>
+         <testDataId>Data Files/Rizka/Edit Foto Profil</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8ef129b0-848d-48f6-87c7-5f6276e2cf99</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>photoName</value>
+         <variableId>54bbee74-6f90-4677-b6a3-2f8e24a64751</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ef129b0-848d-48f6-87c7-5f6276e2cf99</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>condition</value>
+         <variableId>9d18463f-53fc-46d1-8f5d-5cd23ad8e8a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ef129b0-848d-48f6-87c7-5f6276e2cf99</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>info</value>
+         <variableId>4b4087a3-4a1d-4d35-ad26-f7edbccfdc39</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ef129b0-848d-48f6-87c7-5f6276e2cf99</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>infoCamera</value>
+         <variableId>1a87397a-ffd7-4a41-a17c-3951cda722f5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

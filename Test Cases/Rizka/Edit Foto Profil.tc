@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Foto Profil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f382fe4-ab63-48df-a573-319e7b451da9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54bbee74-6f90-4677-b6a3-2f8e24a64751</id>
+      <masked>false</masked>
+      <name>photoName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d18463f-53fc-46d1-8f5d-5cd23ad8e8a9</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b4087a3-4a1d-4d35-ad26-f7edbccfdc39</id>
+      <masked>false</masked>
+      <name>info</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a87397a-ffd7-4a41-a17c-3951cda722f5</id>
+      <masked>false</masked>
+      <name>infoCamera</name>
+   </variable>
+</TestCaseEntity>

@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>193255ec-4d4f-421f-9528-ceea1475f81f</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <iterationType>RANGE</iterationType>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
       </testDataLink>

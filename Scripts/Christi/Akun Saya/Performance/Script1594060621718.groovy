@@ -14,10 +14,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-Mobile.startApplication('C:\\Users\\ASUS\\git\\ACC-ACCPartner\\accpartner_010720.apk', false)
-
-Mobile.waitForElementPresent(findTestObject('Christi/login page/android.view.View0 - Akun'), 5)
+Mobile.startApplication('C:\\Users\\ASUS\\git\\Clone ACCPartner 06072020\\accpartner_010720.apk', false)
 
 Mobile.tap(findTestObject('Christi/login page/android.view.View0 - Akun'), 3)
 

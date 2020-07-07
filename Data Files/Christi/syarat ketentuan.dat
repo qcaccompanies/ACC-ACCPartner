@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>pusat bantuan</name>
+   <name>syarat ketentuan</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>0596fa76-ea0a-45d0-8b49-600740df9a7e</dataFileGUID>
+   <dataFileGUID>b83310bf-588b-47da-ab59-e6300a394aad</dataFileGUID>
    <dataSourceUrl>C:\Users\ASUS\git\Clone ACCPartner 06072020\Data Biding Christi.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>pusat bantuan</sheetName>
+   <sheetName>syarat ketentuan</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

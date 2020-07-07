@@ -14,14 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-Mobile.startApplication('C:\\Users\\ASUS\\git\\ACC-ACCPartner\\accpartner_010720.apk', false)
+Mobile.startApplication('C:\\Users\\ASUS\\git\\Clone ACCPartner 06072020\\accpartner_010720.apk', false)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Christi/login page/android.view.View0 - Akun'), 3)
 
-Mobile.tap(findTestObject('Christi/pengaturan notifikasi page/android.view.View0 - '), 0)
+Mobile.tap(findTestObject('Christi/pengaturan notifikasi page/android.view.View0 - Notifikasi (1)'), 0)
 
 if (var_verifikasi_akun == 'enable') {
     Mobile.tap(findTestObject('Christi/pengaturan notifikasi page/verifikasi akun disable'), 2, FailureHandling.OPTIONAL)

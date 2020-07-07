@@ -14,31 +14,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-Mobile.startApplication('C:\\Users\\ASUS\\Desktop\\accpartner.apk', false)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.startApplication('C:\\Users\\ASUS\\git\\Clone ACCPartner 06072020\\accpartner_010720.apk', false)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Christi/login page/android.view.View0 - Akun'), 3)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Christi/syarat ketentuan page/android.view.View0 - Syarat  Ketentuan (1)'), 0)
 
-Mobile.setText(findTestObject('null'), search_faq, 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Christi/syarat ketentuan page/android.widget.EditText0 (1)'), search, 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 if (expected == 'pass') {
-    Mobile.verifyElementExist(findTestObject('null', [('text') : search_faq]), 0)
+    Mobile.verifyElementExist(findTestObject('Christi/syarat ketentuan page/android.widget.Button0 - pertama', [('text') : search]), 
+        0)
 
-    Mobile.tap(findTestObject('null', [('text') : search_faq]), 0)
+    Mobile.tap(findTestObject('Christi/syarat ketentuan page/android.widget.Button0 - pertama', [('text') : search]), 0)
 } else if (expected == 'fail') {
-    Mobile.verifyElementNotVisible(findTestObject('null', [('text') : search_faq]), 
+    Mobile.verifyElementNotExist(findTestObject('Christi/syarat ketentuan page/android.widget.Button0 - pertama', [('text') : search]), 
         0)
 }
 

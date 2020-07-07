@@ -15,22 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(3)
-
-Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0 (2)'), 0)
-
-Mobile.setText(findTestObject('Simulasi/android.widget.EditText0 (14)'), 'AA', 0)
-
-Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0 (3)'), 0)
-
-Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0 (4)'), 0)
-
-Mobile.tap(findTestObject('Simulasi/android.widget.Button0 - Masukan Data Debitur (1)'), 0)
-
-WebUI.callTestCase(findTestCase('new simulasi kredit/Data Debitur'), [('Picture') : Picture, ('NamaKTP') : NamaKTP, ('NoHP') : NoHP
-        , ('AdaFoto') : AdaFoto, ('UploadBy') : UploadBy, ('FileName') : FileName], FailureHandling.STOP_ON_FAILURE)
-
-not_run: if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
     if (Pembayaran1 == 'Credit') {
         if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
             Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Asuransi_Option2'), 0)
@@ -56,7 +41,7 @@ not_run: if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 1
             Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 0)
         }
     } else if (Pembayaran1 == 'Cash') {
-        Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0'), 0)
+        Mobile.tapAtPosition(642, 441)
 
         if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
             Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Asuransi_Option2'), 0)
@@ -159,7 +144,11 @@ not_run: if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 1
     }
 }
 
-not_run: if (Periode == '12') {
+WebUI.delay(3)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+if (Periode == '12') {
     if (CreditProtection == 'Yes') {
         Mobile.delay(5)
 
@@ -179,7 +168,7 @@ not_run: if (Periode == '12') {
     } else if (CreditProtection == 'No') {
         Mobile.delay(5)
 
-        not_run: Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0 (1)'), 0)
+        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/AccProtecy'), 0)
 
         not_run: Mobile.tapAtPosition(90, 850)
 
@@ -195,9 +184,16 @@ not_run: if (Periode == '12') {
 
         Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Asuransi - Btn_Masukkan_Data_Debitur'), 0)
     } else {
+        Mobile.delay(5)
+
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat1212'), 0)
+
+        Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat1212'), Plat, 0)
+
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/btn_masukkan data debitur'), 0)
     }
     
-    not_run: if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/alert'), 0, FailureHandling.OPTIONAL)) {
+    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/alert'), 0, FailureHandling.OPTIONAL)) {
         if (PaketOnOff == 'On') {
             Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat12_On'), Plat, 0)
 
@@ -208,36 +204,17 @@ not_run: if (Periode == '12') {
             Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat12'), 0)
         }
     }
-    
-    Mobile.delay(5)
-
-    not_run: Mobile.verifyElementVisible(findTestObject('Simulasi/android.widget.EditText0 (14)'), 30, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.setText(findTestObject('Simulasi/android.widget.EditText0 (14)'), Plat, 0)
-
-    Mobile.tap(findTestObject('Simulasi/android.widget.EditText0 (14)'), 30, FailureHandling.STOP_ON_FAILURE)
-
-    not_run: Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_plat12OFF (1)'), Plat, 0)
-
-    not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_plat12OFF (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-    Mobile.delay(5)
-
-    not_run: Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/btn_masukkan data debitur'), 
-        0)
-
-    Mobile.tap(findTestObject('Simulasi/android.widget.Button0 - Masukan Data Debitur'), 0)
 } else if (Periode == '24') {
+    Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
     if (PaketOnOff == 'On') {
         Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat24_On'), Plat, 0)
 
         Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat24_On'), 0)
     } else {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/set_plat24'), 0)
+        Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat24 (1)'), Plat, 0)
 
-        Mobile.setText(findTestObject('Simulasi Kredit ATS - 18/Asuransi/set_plat24'), Plat, 0)
+        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Set_Plat24 (1)'), 0)
     }
     
     if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Alert_Plat_Harus_Diisi'), 0, FailureHandling.OPTIONAL)) {
@@ -391,126 +368,8 @@ not_run: if (Periode == '12') {
     }
 }
 
-not_run: if (Pembayaran1 == 'Credit') {
-    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Asuransi_Option2'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Option_AllRisk_Tahun2'), 0)
-    }
-    
-    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 3'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year3'), 0)
-
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun3]), 0)
-    }
-    
-    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 4'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year4'), 0)
-
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun4]), 0)
-    }
-    
-    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 0)
-    }
-} else if (Pembayaran1 == 'Cash') {
-    Mobile.tap(findTestObject('Simulasi/android.widget.CheckBox0'), 0)
-
-    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 2'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Asuransi_Option2'), 0)
-
-        Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Option_AllRisk_Tahun2'), 0)
-
-        if (Pembayaran2 == 'Credit') {
-            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 3'), 0, FailureHandling.OPTIONAL)) {
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year3'), 0)
-
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                    0)
-            }
-            
-            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 4'), 0, FailureHandling.OPTIONAL)) {
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year4'), 0)
-
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                    0)
-            }
-            
-            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 0, FailureHandling.OPTIONAL)) {
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                    0)
-            }
-        } else if (Pembayaran2 == 'Cash') {
-            Mobile.tapAtPosition(642, 740)
-
-            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 3'), 0, FailureHandling.OPTIONAL)) {
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year3'), 0)
-
-                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                    0)
-
-                if (Pembayaran3 == 'Credit') {
-                    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 4'), 0, FailureHandling.OPTIONAL)) {
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year4'), 0)
-
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun4]), 
-                            0)
-                    }
-                    
-                    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 0, FailureHandling.OPTIONAL)) {
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                            0)
-                    }
-                } else if (Pembayaran3 == 'Cash') {
-                    Mobile.tapAtPosition(642, 1040)
-
-                    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 4'), 0, FailureHandling.OPTIONAL)) {
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year4'), 0)
-
-                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun4]), 
-                            0)
-
-                        if (Pembayaran4 == 'Credit') {
-                            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 
-                                0, FailureHandling.OPTIONAL)) {
-                                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-                                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                                    0)
-                            }
-                        } else if (Pembayaran4 == 'Cash') {
-                            Mobile.tapAtPosition(642, 1340)
-
-                            if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 
-                                0, FailureHandling.OPTIONAL)) {
-                                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-                                not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', [('text') : Tahun5]), 
-                                    0)
-
-                                if (Pembayaran5 == 'Credit') {
-                                    if (Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Tahun 5'), 
-                                        0, FailureHandling.OPTIONAL)) {
-                                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/Year5'), 0)
-
-                                        not_run: Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Asuransi/ChooseRisk', 
-                                                [('text') : Tahun5]), 0)
-                                    }
-                                } else if (Pembayaran4 == 'Cash') {
-                                    Mobile.tapAtPosition(642, 1640)
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+WebUI.callTestCase(findTestCase('Simulasi Kredit ATS-18/Data Debitur'), [('Picture') : Picture, ('NamaKTP') : NamaKTP, ('NoHP') : NoHP
+        , ('FileName') : FileName, ('UploadBy') : UploadBy], FailureHandling.STOP_ON_FAILURE)
 

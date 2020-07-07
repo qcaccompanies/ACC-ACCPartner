@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>39a2d63a-391c-4215-9d48-a9c3d7536bcb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Christi/Akun Saya/Notifikasi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9728be9f-4a90-4673-969b-8aefbc764d0c</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Christi/notifikasi</testDataId>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>a6ef3a55-3acc-439a-b301-424ee211d4fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Christi/Akun Saya/Syarat Ketentuan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -82,19 +82,40 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Syarat dan Ketentuan</testDataId>
+         <testDataId>Data Files/Christi/syarat ketentuan</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da33cbe3-0d7f-40dc-953c-6a8fd5850628</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>search</value>
          <variableId>73638b63-478b-496d-9cf4-b590c906256c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da33cbe3-0d7f-40dc-953c-6a8fd5850628</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
          <variableId>22735293-7efd-44a0-9060-7478bf0c35ea</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e856aa59-a9cd-44d1-b9b5-2162f2a9f10f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Christi/Akun Saya/Performance</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e52ff021-6706-4a74-95fa-ec9e663c3166</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alda/data_binding_performance</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e52ff021-6706-4a74-95fa-ec9e663c3166</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_bulan</value>
+         <variableId>1c6867a6-acbe-4de3-ae08-4c3db8c954d9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e5d2a379-7ccc-48ae-bf15-ae73e966e11c</dataFileGUID>
-   <dataSourceUrl>C:\Users\ASUS\git\ACC-ACCPartner\Data Biding Christi.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ASUS\git\Clone ACCPartner 06072020\Data Biding Christi.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

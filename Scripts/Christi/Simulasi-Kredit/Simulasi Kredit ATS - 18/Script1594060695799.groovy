@@ -16,14 +16,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: Mobile.startApplication('G:\\accpartner (2).apk', false)
+Mobile.startApplication('C:\\Users\\ASUS\\git\\Clone ACCPartner 06072020\\accpartner_010720.apk', false)
 
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
 
-    Mobile.tap(findTestObject('Simulasi Kredit ATS - 18/Btn_Tambah Simulasi'), 0)
+    Mobile.tap(findTestObject('Christi/simulasi kredit page/Btn Simulasi Kredit'), 0)
 
     Mobile.verifyElementVisible(findTestObject('Simulasi Kredit ATS - 18/PaketOn'), 0)
 

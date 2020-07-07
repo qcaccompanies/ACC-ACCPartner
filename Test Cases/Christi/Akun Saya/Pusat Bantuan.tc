@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>af343643-35f6-4f81-809c-4ab0faa98688</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'xx'</defaultValue>
       <description></description>
       <id>12ac5d1d-59a5-4a81-8d75-fc0158b78726</id>
       <masked>false</masked>
       <name>search_faq</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'fail'</defaultValue>
       <description></description>
       <id>1ae6f818-984f-49fb-a03a-c9997cbbc7e9</id>
       <masked>false</masked>

@@ -18,8 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('StartApplication'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.startApplication('G:\\accpartner (3).apk', false)
-
 if (PaketOnOff == 'On') {
     WebUI.delay(0)
 

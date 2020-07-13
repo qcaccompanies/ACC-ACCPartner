@@ -8,13 +8,6 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>15cb89e6-c976-42c1-a411-3bfccfac06ac</id>
-      <masked>false</masked>
-      <name>Picture</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Buat Simulasi Kredit').getValue(25, 2)</defaultValue>
-      <description></description>
       <id>a5d98e6e-f11e-4225-8a6f-ea6aad94f469</id>
       <masked>false</masked>
       <name>NamaKTP</name>
@@ -29,13 +22,6 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>25b89472-df1f-4f00-a35d-4b49752ad60e</id>
-      <masked>false</masked>
-      <name>AdaFoto</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>c24ac29d-d187-457e-b075-148930fa48ab</id>
       <masked>false</masked>
       <name>UploadBy</name>
@@ -46,5 +32,19 @@
       <id>e5648357-e418-4cb0-a430-83ee0df78629</id>
       <masked>false</masked>
       <name>FileName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd35bdd6-31be-43a1-9cf1-55a7c71cd8e2</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2075eca-1fb2-42ad-825c-8c0da23248f7</id>
+      <masked>false</masked>
+      <name>fail</name>
    </variable>
 </TestCaseEntity>

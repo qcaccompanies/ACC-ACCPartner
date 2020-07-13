@@ -1,155 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Asuransi</name>
+   <name>Christi Asuransi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ae10d93a-0690-4332-b50e-180f26d3e25a</testCaseGuid>
+   <testCaseGuid>69f9e8ca-7194-46f1-963d-a27ead5ae643</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e310380e-5fdc-4c2d-9dc8-31a6be7ad599</id>
+      <id>3c8b721a-9f79-45ee-b4ca-f59f972819ee</id>
       <masked>false</masked>
       <name>PaketOnOff</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2e7cdbf9-7cbf-4f82-b450-924e0f2d9cfd</id>
+      <id>96c9339f-6710-47dc-9756-7abfb1437112</id>
       <masked>false</masked>
       <name>Periode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4fbc99d4-f154-4536-b947-2a533321e1ac</id>
+      <id>9a23a5a6-698f-4b11-b8f7-8d0aede449a8</id>
       <masked>false</masked>
       <name>Pembayaran1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>205ae8b6-8a8c-4265-ac06-4cfb496bbb9d</id>
+      <id>6d59234b-4d27-46e4-ae2f-e4da80c56106</id>
       <masked>false</masked>
       <name>Pembayaran2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7d0bc22b-4ac2-45b7-92c7-5dcbc3b2f629</id>
+      <id>41374edd-e646-4947-a577-c12f3d51fdf3</id>
       <masked>false</masked>
       <name>Pembayaran3</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d4b312fb-56aa-4492-954f-d013d9f14b23</id>
+      <id>7acbc7c3-b24f-4e39-9412-111f4dff7f71</id>
       <masked>false</masked>
       <name>Pembayaran4</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3831dece-c192-4287-aff5-39ca94493ace</id>
+      <id>ffd01fa6-bb7b-44cc-a4a3-31315e360373</id>
       <masked>false</masked>
       <name>Pembayaran5</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>eef1e0aa-4e79-4940-9c52-301ddd8315a1</id>
+      <id>b7ed61a0-18b0-4196-8a05-37eccaa72759</id>
       <masked>false</masked>
       <name>Plat</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6b25af68-574a-4a3a-8b27-31c02575c43e</id>
+      <id>7baba04e-a081-46bb-b2dd-062c3a79f6cd</id>
       <masked>false</masked>
       <name>CreditProtection</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a26ec97b-c22c-456e-897f-cd60e67e9804</id>
+      <id>2b97f2e2-dba5-4c0f-bde4-79a1b9618458</id>
       <masked>false</masked>
       <name>ProtectionType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b33e6588-5e26-4dc7-98ba-14b4bf7503df</id>
-      <masked>false</masked>
-      <name>Picture</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>7c10b64d-9162-4376-8d64-0c2729e21596</id>
-      <masked>false</masked>
-      <name>AdaFoto</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3a799ccf-81e2-48ef-b855-8d0958a58e87</id>
-      <masked>false</masked>
-      <name>TDP</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ccb2373d-caf5-4634-969d-90c754277c56</id>
-      <masked>false</masked>
-      <name>Angsuran</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>672957db-5762-41ed-b34f-d0c382748e10</id>
-      <masked>false</masked>
-      <name>PDC</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>9c6ef5d5-397b-4689-b279-95059377c4b1</id>
+      <id>98325887-3788-44bf-95e1-619514f589a3</id>
       <masked>false</masked>
       <name>NamaKTP</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6fe1c313-a4ca-41a8-b9b2-20b36bf1e7ae</id>
+      <id>be2e70a5-02cb-49b3-8b94-6dccee2748dd</id>
       <masked>false</masked>
       <name>NoHP</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b300a3b5-c0f1-4093-b158-3c22bf4922ee</id>
+      <id>05cdc652-616f-4490-b2a1-d15a2a4c1ac6</id>
       <masked>false</masked>
       <name>UploadBy</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b5009b0b-fb54-47e2-af8c-80bc247abb27</id>
+      <id>b5a2eb8d-835f-420a-be3b-0b5769f66039</id>
       <masked>false</masked>
       <name>FileName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>5ce3a508-df58-443d-b749-dacced0a1fa2</id>
-      <masked>false</masked>
-      <name>Expected</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>f30b9a8f-288c-4148-b258-a40ca811a3e5</id>
-      <masked>false</masked>
-      <name>Fail</name>
    </variable>
 </TestCaseEntity>

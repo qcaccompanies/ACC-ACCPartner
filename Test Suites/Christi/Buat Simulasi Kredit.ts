@@ -19,10 +19,10 @@
          <combinationType>ONE</combinationType>
          <id>32ea0a0b-806c-4cc0-b431-a0a8f1a0e6b3</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>6-10</value>
          </iterationEntity>
-         <testDataId>Data Files/Buat Simulasi Kredit</testDataId>
+         <testDataId>Data Files/Christi/Buat Simulasi Kredit</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>32ea0a0b-806c-4cc0-b431-a0a8f1a0e6b3</testDataLinkId>
@@ -191,6 +191,18 @@
          <type>DATA_COLUMN</type>
          <value>FileName</value>
          <variableId>d9b38452-24b1-4502-9943-6afe3395b2ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>32ea0a0b-806c-4cc0-b431-a0a8f1a0e6b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>277be239-2d1c-4ca7-b7db-e96cffd9c497</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>32ea0a0b-806c-4cc0-b431-a0a8f1a0e6b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fail</value>
+         <variableId>1530c6ff-5377-4ee4-a7ec-658548fb9533</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

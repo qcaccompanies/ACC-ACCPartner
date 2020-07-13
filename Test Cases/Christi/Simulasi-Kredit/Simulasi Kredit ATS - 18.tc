@@ -6,28 +6,28 @@
    <comment></comment>
    <testCaseGuid>84f31f79-ecbb-4259-919f-062c4052edfe</testCaseGuid>
    <variable>
-      <defaultValue>'On'</defaultValue>
+      <defaultValue>'Off'</defaultValue>
       <description></description>
       <id>a98003d3-b7b5-41e2-be1e-91677b368921</id>
       <masked>false</masked>
       <name>PaketOnOff</name>
    </variable>
    <variable>
-      <defaultValue>'DKI Jakarta, Banten, Jawa Barat'</defaultValue>
+      <defaultValue>'Jawa Tengah dan DIY'</defaultValue>
       <description></description>
       <id>caead389-2bae-4095-a0de-58d61fd4155f</id>
       <masked>false</masked>
       <name>AreaPengajuan</name>
    </variable>
    <variable>
-      <defaultValue>'FATMAWATI'</defaultValue>
+      <defaultValue>'KUDUS'</defaultValue>
       <description></description>
       <id>43ed0352-3b21-487a-b9a0-5031ae121bb2</id>
       <masked>false</masked>
       <name>Cabang</name>
    </variable>
    <variable>
-      <defaultValue>'PKT DHT SAHABAT'</defaultValue>
+      <defaultValue>'PKT SAHABAT DHT LAYER 2'</defaultValue>
       <description></description>
       <id>98199781-2249-4c0d-862c-40c86a118dc1</id>
       <masked>false</masked>
@@ -41,35 +41,35 @@
       <name>Brand</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ALL NEW TERIOS'</defaultValue>
       <description></description>
       <id>2e61198b-c762-4386-b4ce-70ed9aa5a9ad</id>
       <masked>false</masked>
       <name>Type</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'CUSTOM A/T'</defaultValue>
       <description></description>
       <id>e7dbb6a7-e3e0-4dde-b8c5-38a5fc9aaa20</id>
       <masked>false</masked>
       <name>Model</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2020'</defaultValue>
       <description></description>
       <id>c4e4d3ee-2908-42c4-befc-34fe4baa445a</id>
       <masked>false</masked>
       <name>Tahun</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'25000000'</defaultValue>
       <description></description>
       <id>7b16ac97-0c88-4a9f-9391-0630522cc225</id>
       <masked>false</masked>
       <name>OTR</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'25'</defaultValue>
       <description></description>
       <id>282c3285-8ab6-4786-9090-8579b96eb9f4</id>
       <masked>false</masked>
@@ -83,70 +83,70 @@
       <name>DP_UANG</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'12'</defaultValue>
       <description></description>
       <id>6175e9b9-7258-4a1e-a4f4-41b5f86016e7</id>
       <masked>false</masked>
       <name>Periode</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ADDB'</defaultValue>
       <description></description>
       <id>89ffa3d8-bef9-48be-98ca-f6ff69193eac</id>
       <masked>false</masked>
       <name>PembayaranAngsuran</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'200000000'</defaultValue>
       <description></description>
       <id>6d4e2e38-47c3-4e21-bbc9-0c1f179c7ca5</id>
       <masked>false</masked>
       <name>TDP</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2000000'</defaultValue>
       <description></description>
       <id>1ac80f2f-130b-4834-8838-e5295253c06b</id>
       <masked>false</masked>
       <name>Angsuran</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'20000'</defaultValue>
       <description></description>
       <id>24866f98-5ff9-4056-94bc-3b3cbd9a621b</id>
       <masked>false</masked>
       <name>PDC</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Credit'</defaultValue>
       <description></description>
       <id>8b3e2190-bcf0-476b-89e2-1e652fe8c9ca</id>
       <masked>false</masked>
       <name>Pembayaran1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Cash'</defaultValue>
       <description></description>
       <id>f81bd2f8-7401-43c1-ad82-34960ecc68f0</id>
       <masked>false</masked>
       <name>Pembayaran2</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Cash'</defaultValue>
       <description></description>
       <id>b580296d-ea53-4958-9d20-0838111562f8</id>
       <masked>false</masked>
       <name>Pembayaran3</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Cash'</defaultValue>
       <description></description>
       <id>a736cb48-bb40-40e9-b822-1ea793658409</id>
       <masked>false</masked>
       <name>Pembayaran4</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Cash'</defaultValue>
       <description></description>
       <id>47f8e235-634e-4613-9287-be8941d30564</id>
       <masked>false</masked>
@@ -160,45 +160,59 @@
       <name>Plat</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Yes'</defaultValue>
       <description></description>
       <id>5ac26602-52eb-4b45-9eb4-0350f5bb1324</id>
       <masked>false</masked>
       <name>CreditProtection</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Cash'</defaultValue>
       <description></description>
       <id>e4a0678b-6717-4382-a0ba-fc7396795232</id>
       <masked>false</masked>
       <name>ProtectionType</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Sudarsono'</defaultValue>
       <description></description>
       <id>9235efa4-0ce0-4b47-9af4-31682c96595f</id>
       <masked>false</masked>
       <name>NamaKTP</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'08952911766'</defaultValue>
       <description></description>
       <id>a61b96e3-35ba-4bcd-a1a8-d862941a8df0</id>
       <masked>false</masked>
       <name>NoHP</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Camera'</defaultValue>
       <description></description>
       <id>b9df7f45-520a-42d5-981e-796d1b47b839</id>
       <masked>false</masked>
       <name>UploadBy</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'testing.jpg'</defaultValue>
       <description></description>
       <id>d9b38452-24b1-4502-9943-6afe3395b2ba</id>
       <masked>false</masked>
       <name>FileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'fail'</defaultValue>
+      <description></description>
+      <id>277be239-2d1c-4ca7-b7db-e96cffd9c497</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'plat empty'</defaultValue>
+      <description></description>
+      <id>1530c6ff-5377-4ee4-a7ec-658548fb9533</id>
+      <masked>false</masked>
+      <name>fail</name>
    </variable>
 </TestCaseEntity>
